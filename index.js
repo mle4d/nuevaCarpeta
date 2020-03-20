@@ -30,3 +30,4 @@ const triggers = document.querySelectorAll('.quickinfo > li');
 
   triggers.forEach(trigger => trigger.addEventListener('mouseenter', handleEnter));
   triggers.forEach(trigger => trigger.addEventListener('mouseleave', handleLeave));
+
