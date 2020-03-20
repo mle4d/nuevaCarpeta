@@ -48,33 +48,25 @@ ul {
 }
 .nav a:hover {
   text-decoration: underline;
+  text-decoration-skip-ink: unset;
+  text-decoration-color: #388dc6;
+  line-height: 150%;
   font-weight: bolder;
 }
 a {
   text-decoration: none;
   font-family: 'playfair display';
-  font-size: 100%;
-  color: #1b7abc;
+  font-size: 120%;
+  color: #ffffff;
   border-radius: 20px;
 }
-.highlight {
-  transition: all 0.2s;
-  position: absolute;
-  top: 0;
-  background: #f0e3ed;
-  opacity: .8;
-  left: 0;
-  z-index: -1;
-  border-radius: 25px;
-  display: block;
-  box-shadow: 0 0 10px rgba(0,0,0,0.2);
-}
+
 nav {
   perspective: 600px;
   position: fixed;
-  bottom: 10%;
-  right: 10%;
-  /* z-index: +1; */
+  bottom: 5%;
+  right: 5%;
+  z-index: +1;
 }
 
 .quickinfo > li > a {
@@ -186,8 +178,3 @@ a.button {
   color: white;
   margin-bottom: 10px;
 }
-
-
-.button[href*=twitter] { background: #019FE9; }
-.button[href*=facebook] { background: #3B5998; }
-.button[href*=courses] { background: #ffc600; }
