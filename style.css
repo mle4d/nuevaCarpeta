@@ -164,7 +164,15 @@ nav ul {
   float: left;
   margin-right: 20px;
 }
+.smlinks {
+  min-width: 100px;
+  height: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 1.7;
 
+}
 
 .dropdown a {
   text-decoration: none;
