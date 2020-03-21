@@ -64,8 +64,8 @@ a {
 nav {
   perspective: 600px;
   position: fixed;
-  bottom: 5%;
-  right: 5%;
+  bottom: 3%;
+  right: 7%;
   z-index: +1;
 }
 
