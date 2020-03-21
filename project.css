@@ -11,6 +11,7 @@
   align-items: center;
   flex-wrap: wrap;
   overflow: hidden;
+  border-radius: 20px;
 }
 .wall {
   width: 100%;
@@ -29,7 +30,7 @@
 .underdesk {
   width: 71%;
   height: 12%;
- border-right: solid 30px #b6adb293;
- border-left: solid 25px #b5adb1;
- box-shadow: -5px 0px 10px rgba(0, 0, 0, 0.4);
+  border-right: solid 30px #b6adb293;
+  border-left: solid 25px #b5adb1;
+  box-shadow: -5px 0px 10px rgba(0, 0, 0, 0.4);
 }
