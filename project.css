@@ -26,37 +26,81 @@
 }
 .bulletin {
   width: 18%;
-  height: 100%;
-  background: rgb(237,237,237);
+  height: 90%;
+  margin-top: .5%;
+  background: #ededed;
   background: linear-gradient(0deg, #ededed 0%,
-   #d1d1d1 2%, #ededed 3%, #D1D1D1 5%,#ededed 6%, 
-   #d1d1d1 8%, #ededed 9%, #D1D1D1 11%, #ededed 12%, 
-   #d1d1d1 14%, #ededed 15%, #D1D1D1 17%, #ededed 18%,
-   #d1d1d1 20%, #ededed 21%, #D1D1D1 23%, #ededed 24%,
-    #d1d1d1 26%, #ededed 27%, #D1D1D1 29%, #ededed 30%,
-     #d1d1d1 32%, #ededed 33%, #D1D1D1 35%,
-     #ededed 36%, #d1d1d1 38%, #ededed 39%, #D1D1D1 41%,
-     #ededed 42%, #d1d1d1 44%, #ededed 45%, #D1D1D1 47%,
-     #ededed 48%, #d1d1d1 50%, #ededed 51%, #D1D1D1 53%,
-     #ededed 54%, #d1d1d1 56%, #ededed 57%, #D1D1D1 59%,
-     #ededed 60%, #d1d1d1 62%, #ededed 63%, #D1D1D1 65%,
-     #ededed 66%, #d1d1d1 68%, #ededed 69%, #D1D1D1 71%,
-     #ededed 72%, #d1d1d1 74%, #ededed 75%, #D1D1D1 77%,
-     #ededed 78%, #d1d1d1 80%, #ededed 81%, #D1D1D1 83%,
-     #ededed 84%, #d1d1d1 86%, #ededed 87%, #D1D1D1 89%,
-     #ededed 90%, #d1d1d1 92%, #ededed 93%, #D1D1D1 95%,
-     #ededed 96%, #d1d1d1 98%, #ededed 99%, #D1D1D1 100%);
-
-
+   #d1d1d1 2%, #ededed 3%, #d1d1d1 5%,#ededed 6%, 
+   #d1d1d1 8%, #ededed 9%, #d1d1d1 11%, #ededed 12%, 
+   #d1d1d1 14%, #ededed 15%, #d1d1d1 17%, #ededed 18%,
+   #d1d1d1 20%, #ededed 21%, #d1d1d1 23%, #ededed 24%,
+   #d1d1d1 26%, #ededed 27%, #d1d1d1 29%, #ededed 30%,
+   #d1d1d1 32%, #ededed 33%, #d1d1d1 35%,
+   #ededed 36%, #d1d1d1 38%, #ededed 39%, #d1d1d1 41%,
+   #ededed 42%, #d1d1d1 44%, #ededed 45%, #d1d1d1 47%,
+   #ededed 48%, #d1d1d1 50%, #ededed 51%, #d1d1d1 53%,
+   #ededed 54%, #d1d1d1 56%, #ededed 57%, #d1d1d1 59%,
+   #ededed 60%, #d1d1d1 62%, #ededed 63%, #d1d1d1 65%,
+   #ededed 66%, #d1d1d1 68%, #ededed 69%, #d1d1d1 71%,
+   #ededed 72%, #d1d1d1 74%, #ededed 75%, #d1d1d1 77%,
+   #ededed 78%, #d1d1d1 80%, #ededed 81%, #d1d1d1 83%,
+   #ededed 84%, #d1d1d1 86%, #ededed 87%, #d1d1d1 89%,
+   #ededed 90%, #d1d1d1 92%, #ededed 93%, #d1d1d1 95%,
+   #ededed 96%, #d1d1d1 98%, #ededed 99%, #d1d1d1 100%);
+   border-left: ridge 10px #ffffff;
+   border-right: groove 10px #ffffff;
+   border-top: ridge 10px #ffffff;
+   border-bottom: groove 10px #ffffff;
 }
 .desktop {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-evenly; */
+  align-items: center;
+  flex-wrap: wrap;
+  width: 40%;
+  height: 120%;
+  z-index: +1;
+}
+.screen {
   /* background-image: url(assets/90s.gif); */
   background-size: 92%;
   background-position: 50% 20%;
   background-repeat: no-repeat;
-  width: 50%;
-  height: 120%;
-  z-index: +1;
+  border-radius: 20px 20px 0px 0px;
+  border: solid 20px #ffffff;
+  /* border-bottom: ridge 50px #ffffff; */
+  width: 100%;
+  height: 60%;
+  
+}
+.screenbottom {
+  width: 110%;
+  height: 8%;
+  border-radius: 0px 0px 20px 20px;
+  background-color: #aaaaaa;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  justify-content: center;
+}
+#strawberry {
+  width: 5%;
+  height: 80%;
+  margin-top:-1.5%;
+}
+.stand {
+  width: 8%;
+  height: 10%;
+  background-color: #e0dddd;
+}
+.base {
+  width: 60%;
+  height: 3%;
+  background-color: #ffffff;
+  border-radius: 40%;
+  border-bottom: ridge 8px #ffffff;
 }
 .desktop img {
   width: 100%;
