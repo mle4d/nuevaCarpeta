@@ -126,21 +126,34 @@
   height: 100%;
   transform: translateY(10px);
 }
-.laptop {
-  width: 30%;
-  height: 70%;
+.endSection {
+  border: solid red 1px;
+  width: 35%;
+  height: 130%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
   z-index: +1;
-  /* border: solid red 2px; */
-  /* perspective: 600px; */
-  
 }
-.laptop img {
-  width: 95%;
+.laptop {
+  width: 70%;
   height: 100%;
-  perspective: 600px;
-  perspective-origin: bottom right;
-  transform: translateY(80%) translateX(-20px);
+  z-index: +1;
+  border: solid yellow 2px;
+  margin-top: 40%;
+  overflow: visible;
 }
+.LTscreen {
+  height: 50%;
+  width: 80%;
+  border-radius: 10px 10px 0px 0px;
+  border: 10px solid #ffffff;
+  z-index: +1;
+  transform: skewY(2deg);
+}
+
 .desk {
   width: 100%;
   height: 25%;
