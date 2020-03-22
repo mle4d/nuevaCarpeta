@@ -141,7 +141,7 @@
   z-index: +1;
 }
 .screen {
-  background-image: url(assets/90s.gif);
+  background-image: url();
   background-size: 100%;
   background-position: 50% 20%;
   background-repeat: no-repeat;
