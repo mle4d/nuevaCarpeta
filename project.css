@@ -127,7 +127,7 @@
   transform: translateY(10px);
 }
 .endSection {
-  border: solid red 1px;
+  /* border: solid red 1px; */
   width: 35%;
   height: 130%;
   display: flex;
@@ -171,11 +171,6 @@
   height: 40%;
   border: inset 3px #bababa;
   background: #cbcbcb;
-  /* background: linear-gradient(90deg, #cbcbcb 0%, #000000 5%,  
-  #cbcbcb 10%, #000000 15%, #cbcbcb 17%, #000000 20%, #cbcbcb 21%, 
-  #000000 25%, #cbcbcb 26%, #000000 30%, #cbcbcb 32%, #000000 35%, #cbcbcb 37%,
-  #000000 40%,#cbcbcb 42%, #000000 45%, 60deg, #cbcbcb 47% , #cbcbcb 55%, #cbcbcb 60%, 
-  #000000 65%, #cbcbcb 70%, #000000 75%, #cbcbcb 80% ); */
   background-image: linear-gradient(to right, #cbcbcb 50%, #000000 50%);
   background-size: 15px 15px;
   border-radius: 5px;
@@ -215,14 +210,28 @@
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  align-items: flex-start;
+  align-items: center;
+  overflow: visible;
+}
+.deskItems  {
+  width: 90%;
+  height: 50%;
+  border: solid red 2px;
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-evenly; */
+  align-items: center;
   overflow: visible;
 }
 .phone {
-  width: 90%;
-  height: 70%;
-  /* border: solid red 2px; */
-  transform: skewX(64deg) skewY(-3deg);
+  width: 5%;
+  height: 100%;
+  border: solid #ffffff 6px;
+  border-right: inset #ffffff 6px;
+  border-bottom: ridge #ffffff 6px;
+  border-left: groove #ffffff 8px;
+  border-radius: 10px;
+  transform: skewX(68deg) skewY(-6deg);
   float: left;
 }
 #phone {
