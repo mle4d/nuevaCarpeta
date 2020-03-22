@@ -284,7 +284,18 @@
   border-bottom-right-radius: 45px 35px;
   background: #e6bfd4;
 }
-
+.stain {
+  margin-left: 6%;
+  width: 19%;
+  height: 70%;
+  border-right: double 4px #6f4e37;
+  border-top: groove 5px #a97957;
+  border-bottom:  solid 1px #3c2d23;
+  border-radius: 50px;
+  transform: skewX(64deg) scaleX(1.1) skewY(-4deg);
+  z-index: -1;
+  opacity: .5;
+}
 .phone {
   width: 20%;
   height: 120%;
