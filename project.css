@@ -166,7 +166,7 @@
 
 .poppy {
   width: 6%;
-  height: 90%;
+  height: 95%;
   position: relative;
   display: flex;
   flex-direction: row;
@@ -178,16 +178,16 @@
   width: 40%;
   height: 60%;
   border-radius: 50%;
-  border-top-right-radius: 100%;
-  border-top-left-radius: 80%;
-  border-bottom-left-radius: 70%;
-  border-bottom-right-radius: 80%;
+  border-top-right-radius: 90%;
+  border-top-left-radius: 60%;
+  border-bottom-left-radius: 60%;
+  border-bottom-right-radius: 90%;
   background: rgb(208,82,106);
  background: linear-gradient(0deg, rgba(208,82,106,1) 10%, rgba(224,117,145,.9) 30%, rgba(208,82,106,1) 50%, rgba(224,117,145) 70%, rgba(224,117,145,0.9) 100%);
  background-size: 10px;
   background-size: 10px;
   z-index: -1;
-  transform: rotate(35deg) translateY(5%) translateX(5%);
+  transform: rotate(36deg) translateY(25%) translateX(5%);
   box-shadow: -1px -1px 1px rgba(0, 0, 0, .4);
 }
  .petal2 {
@@ -213,35 +213,36 @@ background: radial-gradient(circle, rgba(208,82,106) 0%, rgba(224,117,145,0.9) 1
   background: radial-gradient(circle, #4a454b 20%, #1f120a 100%);
   background-size: 10px 10px;
   align-self: center;
-  transform: translateY(-65%) translateX(30%);
+  transform: translateY(-75%) translateX(30%);
 }
 .petal3 {
-  width: 40%;
+  width: 50%;
   height: 60%;
-  border-radius: 50%;
-  border-top-right-radius: 70%;
-  border-top-left-radius: 40%;
-  border-bottom-left-radius: 40%;
+  border-radius: 30%;
+  border-top-right-radius: 30%;
+  border-top-left-radius: 80%;
+  border-bottom-left-radius: 30%;
+  border-bottom-right-radius: 40%;
   background: rgb(208,82,106);
 background: linear-gradient(0deg, rgba(208,82,106,1) 0%, rgba(224,117,145,.9) 10%, rgba(208,82,106,1) 50%, rgba(224,117,145) 60%, rgba(224,117,145,0.9) 100%);
  background-size: 5px;
   z-index: -1;
-  transform: rotate(30deg) translateY(-5%) translateX(-10%);
+  transform: rotate(35deg) translateY(-5%) translateX(-30%);
   box-shadow: -1px -1px 1px rgba(0, 0, 0, .4);
 }
  .petal4 {
   width: 60%;
-  height: 40%;
+  height: 60%;
   border-radius: 50%;
-  border-top-right-radius: 90%;
-  border-bottom-left-radius: 90%;
+  border-top-right-radius: 30%;
+  border-bottom-left-radius: 30%;
   border-top-left-radius: 90%;
-  border-bottom-right-radius: 60%;
+  border-bottom-right-radius: 50%;
   background: rgb(208,82,106);
-background: radial-gradient(circle, rgba(208,82,106) 30%, rgba(224,117,145,0.9) 100%);
-background-size: 40px 80px;
+  background: linear-gradient(90deg, rgba(208,82,106,1) 0%, rgba(224,117,145,.9) 10%, rgba(208,82,106,1) 50%, rgba(224,117,145) 60%, rgba(224,117,145,0.9) 100%);
+background-size: 10px;
    z-index: -1;
-  transform: rotate(30deg) translateY(-80%) translateX(-75%);
+  transform: rotate(35deg) translateY(-70%) translateX(-93%);
   box-shadow: -1px -1px 1px rgba(0, 0, 0, .4);
 }  
 
