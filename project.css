@@ -141,8 +141,8 @@
   z-index: +1;
 }
 .screen {
-  /* background-image: url(assets/90s.gif); */
-  background-size: 92%;
+  background-image: url(assets/90s.gif);
+  background-size: 100%;
   background-position: 50% 20%;
   background-repeat: no-repeat;
   border-radius: 20px 20px 0px 0px;
