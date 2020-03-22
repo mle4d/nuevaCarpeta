@@ -233,8 +233,8 @@
   border-top-left-radius: 125px 50px;
   border-top-right-radius: 125px 50px;
   transform: skewX(64deg);
-  margin-top: -10%;
-  margin-left: 6%;
+  margin-top: -12%;
+  margin-left: 13%;
   align-self: flex-start;
 }
 
@@ -285,14 +285,14 @@
   background: #e6bfd4;
 }
 .stain {
-  margin-left: 6%;
+  margin-left: 10%;
   width: 19%;
   height: 70%;
   border-right: double 4px #6f4e37;
   border-top: groove 5px #a97957;
-  border-bottom:  solid 1px #3c2d23;
+  border-bottom: dashed 1px #3c2d23;
   border-radius: 50px;
-  transform: skewX(64deg) scaleX(1.1) skewY(-4deg);
+  transform: skewX(64deg) scaleX(1.1) skewY(5deg);
   z-index: -1;
   opacity: .5;
 }
