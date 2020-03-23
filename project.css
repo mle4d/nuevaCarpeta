@@ -408,7 +408,7 @@
   border-top: groove 6px #a97957;
   border-bottom: dashed 1px #3c2d23;
   border-radius: 50px;
-  transform: skewX(55deg) scaleX(1.1) scaleY(.5) skewY(5deg);
+  transform: skewX(65deg) scaleX(1.1) scaleY(.5) skewY(5deg);
   z-index: -1;
   opacity: .5;
 }
@@ -433,7 +433,6 @@
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  /* align-content: space-evenly; */
   align-items: center;
   overflow: visible;
 }
