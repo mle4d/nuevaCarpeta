@@ -214,13 +214,25 @@
   height: 40%;
   border: ridge #e3b2ccbd 10px;
   align-self: center;
+  /* background-image: url(assets/90sPoster.png);
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover; */
+}
+.poster flashbak {
+  /* width: 80%;
+  height: 40%;
+  border: ridge #e3b2ccbd 10px;
+  align-self: center;
   background-image: url(assets/90sPoster.png);
   background-repeat: no-repeat;
   background-position: center top;
-  background-size: cover;
+  background-size: cover; */
+  display: none;
 }
 
 .poster ul {
+  display: none;
   font-family: 'lato', serif;
   font-size: 1.2vw;
   list-style: circle;
