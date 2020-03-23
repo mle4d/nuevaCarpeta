@@ -245,7 +245,7 @@
   width: 80%;
   height: 50%;
   z-index: +1;
-  transform: translateX(10%);
+  transform: translateX(10%) translateY(8%);
   overflow: visible;
 }
 .LTscreen {
@@ -271,7 +271,6 @@
   transform: translateX(40%) translateY(-80%);
   font-family: 'Reenie Beanie', cursive;
   font-size: 1.3vw;
-  /* text-align: center; */
   box-shadow: 1px 4px 7px rgba(0,0,0,.2);
 }
 .LTbottom {
@@ -331,7 +330,6 @@
   border-right: solid 30px #e3b2ccbd;
   display: flex;
   flex-direction: row;
-  /* justify-content: space-evenly; */
   align-items: center;
   align-content: space-between;
   overflow: visible;
@@ -339,19 +337,16 @@
 .deskItems  {
   width: 25%;
   height: 50%;
-  /* border: solid red 2px; */
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  /* align-content: space-evenly; */
   align-items: center;
   overflow: visible;
 }
 .mug {
-  /* border: solid 1px red; */
   height: 160%;
   width: 40%;
-  transform: skewX(64deg) translateX(50%) translateY(-15%);
+  transform: skewX(64deg) translateX(40%) translateY(-17%);
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -407,13 +402,13 @@
 
 .stain {
   margin-left: 10%;
-  width: 19%;
-  height: 70%;
+  width: 25%;
+  height: 100%;
   border-right: double 4px #6f4e37;
-  border-top: groove 5px #a97957;
+  border-top: groove 6px #a97957;
   border-bottom: dashed 1px #3c2d23;
   border-radius: 50px;
-  transform: skewX(64deg) scaleX(1.1) skewY(5deg);
+  transform: skewX(55deg) scaleX(1.1) scaleY(.5) skewY(5deg);
   z-index: -1;
   opacity: .5;
 }
@@ -425,9 +420,10 @@
   border-bottom: ridge #ffffff 6px;
   border-left: groove #ffffff 8px;
   border-radius: 10px;
-  transform: skewX(68deg) skewY(-6deg);
+  transform: skewX(70deg) skewY(-15deg) scaleY(.9) scaleX(1.1);
   align-self: flex-end;
 }
+
 .underdesk {
   width: 71%;
   height: 12%;
