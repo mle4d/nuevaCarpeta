@@ -436,4 +436,24 @@
   border-right: solid 30px #b6adb293;
   border-left: solid 25px #b5adb1;
   box-shadow: -5px 0px 10px rgba(0, 0, 0, 0.4);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  /* align-content: space-evenly; */
+  align-items: center;
+  overflow: visible;
+}
+.chair {
+  z-index: +1;
+  width: 33%;
+  height: 200%;
+  margin-left: -10%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-top: solid 60px #ffffff;
+  border-left: solid 10px #ffffff;
+  border-right: solid 10px #ffffff;
+  background: #e3f1e2;
+  background: radial-gradient(circle, #e3f1e2 0%, #e3f1e2 10%, #e3f1e2 20%, #e3f1e2 30%, #ffffff 35%);
+  background-size: 20px 30px;
 }
