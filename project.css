@@ -454,6 +454,6 @@
   border-left: solid 10px #ffffff;
   border-right: solid 10px #ffffff;
   background: #e3f1e2;
-  background: radial-gradient(circle, #e3f1e2 0%, #e3f1e2 10%, #e3f1e2 20%, #e3f1e2 30%, #ffffff 35%);
-  background-size: 20px 30px;
+  background: radial-gradient(circle, #e3f1e2 0%, #e3f1e2 10%, #e3f1e2 20%, #e3f1e2 30%, #e3f1e2 40%, #e3f1e2 50%, #ffffff 35%);
+  background-size: 20px 20px;
 }
