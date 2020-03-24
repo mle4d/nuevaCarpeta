@@ -625,7 +625,7 @@
   width: 20%;
   height: 120%;
   background: rgb(241,226,238);
-background: linear-gradient(60deg, #e3f1e2 0%, #c8e3f5 100%);
+  background: radial-gradient(circle, #f4ccf7 30%, #f3dcf9 100%);
   border: solid #ffffff 6px;
   border-right: inset #ffffff 6px;
   border-bottom: ridge #ffffff 6px;
@@ -633,8 +633,38 @@ background: linear-gradient(60deg, #e3f1e2 0%, #c8e3f5 100%);
   border-radius: 10px;
   transform: skewX(70deg) skewY(-15deg) scaleY(.9) scaleX(1.1);
   align-self: flex-end;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: visible;
+}
+.bubble {
+  width: 80%;
+  height: 30%;
+  position: fixed;
+  left: 30%;
+  border-radius: 50%;
+  box-shadow: 1px -1px 5px lightblue, inset -1px 1px 4px #f0f6c8, inset -1px -1px 8px lightblue, inset -1px -1px 8px #ffffff;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  background-color: #eee6f3;
+  transform: translateX(-26%);
 }
 
+.shadow {
+  width: 60%;
+  height: 60%;
+  border-top-right-radius: 50%;
+  border-bottom-right-radius: 50%;
+  border-right: solid #ffffff 2px;
+  border-bottom: solid transparent 3px;
+  border-top: 1px;
+  transform: rotate(-40deg);
+}
 .underdesk {
   width: 71%;
   height: 12%;
