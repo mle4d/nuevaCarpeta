@@ -1,17 +1,36 @@
-@keyframes H {
+@keyframes HME {
   0% {
-    transform: translateY(-100%) translateX(-100%);
+    transform: translateY(-100%) translateX(-150%);
   }
   25% {
     transform: translateY(0%) translateX(0%);
+    border-radius: 60%;
   }
   50%{
-    transform: translateY(100%) translateX(-100%);
+    transform: translateY(100%) translateX(-150%) rotate(20deg);
   }
   75% {
     transform: translateY(0%) translateX(0%);
   }
   100% {
-    transform: translateY(-100%) translateX(-100%);
+    transform: translateY(-100%) translateX(-150%);
+  }
+}
+@keyframes TL {
+  0% {
+    transform: translateY(100%) translateX(150%);
+  }
+  25% {
+    transform: translateY(0%) translateX(0%);
+    border-radius: 60%;
+  }
+  50%{
+    transform: translateY(-100%) translateX(150%);
+  }
+  75% {
+    transform: translateY(0%) translateX(0%) rotate(-20deg);
+  }
+  100% {
+    transform: translateY(100%) translateX(150%);
   }
 }
