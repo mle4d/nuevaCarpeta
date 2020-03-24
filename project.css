@@ -214,11 +214,104 @@
   height: 40%;
   border: ridge #e3b2ccbd 10px;
   align-self: center;
-  /* background-image: url(assets/90sPoster.png);
-  background-repeat: no-repeat;
-  background-position: center top;
-  background-size: cover; */
+  background-color: #f7f6f4;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  z-index: +1;
+  /* overflow: visible; */
 }
+.smallCloud {
+  width: 40%;
+  height: 30%;
+  background-color: #ffffffd0;
+  border-radius: 70%;
+  transform: translateX(20%);
+}
+.bigCloud {
+  width: 50%;
+  height: 40%;
+  background-color: #73c7ffa9;
+  border-radius: 70%;
+}
+.bigHill {
+  background-color: #5f8c49c0;
+  width: 50%;
+  height: 40%;
+  border-top-left-radius: 50% 100%;
+  border-top-right-radius: 50% 100%;
+  transform: translateX(15%);
+  align-self: flex-end;
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-evenly; */
+  /* align-items: flex-start; */
+  flex-wrap: wrap;
+  z-index: +1;
+  overflow: visible;
+}
+.bush {
+  width: 40%;
+  height: 60%;
+  background-color: #a97b97d5;
+  border-radius: 50%;
+  overflow: visible;
+  font-family: 'Reenie Beanie', cursive;
+  text-align: center;
+  letter-spacing: -3px;
+  font-size:2.6em;
+  color:#85313e;
+  transform: rotate(-18deg);
+}
+
+.smallHill {
+  background-color: #cff3cce3;
+  width: 48%;
+  height: 30%;
+  border-top-left-radius: 50% 100%;
+  border-top-right-radius: 50% 100%;
+  transform: translateX(-15%);
+  align-self: flex-end;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  z-index: -1;
+  overflow: visible;
+}
+.trunk {
+  width: 2%;
+  height: 60%;
+  background-color: #fcae3f;
+  transform: translateX(650%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+  z-index: +1;
+  overflow: visible;
+}
+.tree {
+  width: 1000%;
+  height: 90%;
+  border-radius: 70%;
+  background-color: #e7bfd7c2;
+  transform: translateY(-40%) translateX(15%);
+  align-self: flex-start;
+}
+.branches {
+  width: 330%;
+  height: 20%;
+  align-self: center;
+  border-left: solid 4px #fcae3f;
+  border-bottom: solid 4px #fcae3f;
+  transform: rotate(-40deg) translateX(-40%) translateY(-150%);
+  z-index: -1;
+}
+
 .poster flashbak {
   /* width: 80%;
   height: 40%;
