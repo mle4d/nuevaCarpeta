@@ -424,9 +424,10 @@
   transform: skewY(-3deg) translateX(-30%);
 }
 #circle1 {
-  height:100%;
-  width: 100%;
-  border-radius: 50%;
+  height:110%;
+  width: 110%;
+  border-radius: 80%;
+  border: solid 4px #fcae3f;
   border-left: solid 8px #fcae3f;
   display: flex;
   flex-direction: row;
@@ -435,12 +436,14 @@
   align-self: center;
   flex-wrap: wrap;
   z-index: +1;
+  animation: clockwise ease-in-out 25s infinite;
 }
 #circle2 {
-  height:80%;
-  width: 80%;
-  border-radius: 50%;
+  height:70%;
+  width: 70%;
+  border-radius: 80%;
   border-right: solid 6px #e6bfd4;
+  border: double 4px #e6bfd4;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -448,12 +451,13 @@
   align-self: center;
   flex-wrap: wrap;
   z-index: +1;
+  animation: counterclockwise ease-in-out 20s infinite;
 }
 #circle3 {
-  height:80%;
-  width: 80%;
-  border-radius: 50%;
-  border-top: solid 4px #197abe;
+  height:70%;
+  width: 70%;
+  border-radius: 80%;
+  border: solid 4px #197abe;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -461,12 +465,13 @@
   align-self: center;
   flex-wrap: wrap;
   z-index: +1;
+  animation: clockwise ease-in-out 15s infinite;
 }
 #circle4 {
-  height:80%;
-  width: 80%;
-  border-radius: 50%;
-  border-bottom: solid 2px #ffffff;
+  height:60%;
+  width: 60%;
+  border-radius: 80%;
+  border: dotted 2px #ffffff;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -474,6 +479,7 @@
   align-self: center;
   flex-wrap: wrap;
   z-index: +1;
+  animation: counterclockwise ease-in-out 10s infinite;
 }
 .LTbottom {
   height: 37%;
