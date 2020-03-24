@@ -161,7 +161,6 @@
 .screen p {
   width: 12%;
   height: 20%;
-  /* border: solid red 1px; */
   text-align: center;
   font-size: 2em;
 }
@@ -400,6 +399,7 @@
   flex-wrap: wrap;
   z-index: +1;
   overflow: visible;
+  background-color:#a97b97;
 }
 .tab {
   height: 14%;
