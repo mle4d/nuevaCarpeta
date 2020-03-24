@@ -624,6 +624,8 @@
 .phone {
   width: 20%;
   height: 120%;
+  background: rgb(241,226,238);
+background: linear-gradient(60deg, #e3f1e2 0%, #c8e3f5 100%);
   border: solid #ffffff 6px;
   border-right: inset #ffffff 6px;
   border-bottom: ridge #ffffff 6px;
