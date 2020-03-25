@@ -625,7 +625,8 @@
   width: 20%;
   height: 120%;
   background: rgb(241,226,238);
-  background: radial-gradient(circle, #f4ccf7 30%, #f3dcf9 100%);
+  background: rgb(17,17,17);
+  background: linear-gradient(30deg, #e3f1e2 0%, #e6bfd4 100%);
   border: solid #ffffff 6px;
   border-right: inset #ffffff 6px;
   border-bottom: ridge #ffffff 6px;
