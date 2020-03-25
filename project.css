@@ -178,7 +178,7 @@
 #M {
   font-family: 'Reenie Beanie', cursive;
   font-size: 3em;
-  background-color: #60cbf5;
+  background-color: #60cbf5c9;
   color: #ffffff;
   animation: HME ease-in-out 20s infinite;
 }
@@ -222,7 +222,7 @@
 .sticky {
   width: 12%;
   height: 180%;
-  background-color: #e3f1e2;
+  background-color: #bdf7f1;
   align-self: flex-end;
   transform: rotate(-10deg) translateY(35%);
   font-family: 'Reenie Beanie', cursive;
