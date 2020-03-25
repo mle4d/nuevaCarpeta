@@ -31,15 +31,19 @@ const triggers = document.querySelectorAll('.quickinfo > li');
   triggers.forEach(trigger => trigger.addEventListener('mouseenter', handleEnter));
   triggers.forEach(trigger => trigger.addEventListener('mouseleave', handleLeave));
 
-  function digitalclock()
-  {
+  function clock() {
     var elmnt=document.getElementById("clock");
     var timenow=new Date();
     elmnt.innerHTML=timenow.toLocaleTimeString().replace(/(.*)\D\d+/, '$1');
-    // toLocaleTimeString().replace(/(.*)\D\d+/, '$1');
-    
   }
-  window.onload=function()
-  {
-    setInterval(digitalclock)
+  window.onload=function() {
+    setInterval(clock)
   };
+document.getElementById("date").innerHTML = formatDate();
+
+function formatDate() {
+var d = new Date()
+    months = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'],
+    days = ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'];
+return days[d.getDay()]+', '+months[d.getMonth()]+' '+d.getDate();
+}
