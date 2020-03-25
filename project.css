@@ -634,44 +634,28 @@
   transform: skewX(70deg) skewY(-15deg) scaleY(.9) scaleX(1.1);
   align-self: flex-end;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  overflow: visible;
-}#clock {
+  overflow: hidden;
+}
+#clock {
   font-family: 'Lato';
   color: #ffffff;
   font-size: 10px;
-  align-self: baseline;
+  align-self: flex-start;
   margin-top: 10%;
   text-align: center;
+  transform: translateY(-140%) translateX(10%);
 }
-.bubble {
-  width: 80%;
-  height: 30%;
-  position: fixed;
-  left: 30%;
-  border-radius: 50%;
-  box-shadow: 1px -1px 5px lightblue, inset -1px 1px 4px #f0f6c8, inset -1px -1px 8px lightblue, inset -1px -1px 8px #ffffff;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-content: center;
-  background-color: #eee6f3;
-  transform: translateX(-26%);
+#date {
+  font-family: 'Lato';
+  color: #ffffff;
+  font-size: 6px;
   align-self: center;
-}
-
-.shadow {
-  width: 60%;
-  height: 60%;
-  border-top-right-radius: 60%;
-  border-bottom-right-radius: 60%;
-  border-right: solid #ffffff 3px;
-  border-bottom: solid transparent 5px;
-  border-top: 1px;
-  transform: rotate(-40deg);
+  margin-top: 0%;
+  text-align: center;
+  transform: translateY(-480%);
 }
 .underdesk {
   width: 71%;
