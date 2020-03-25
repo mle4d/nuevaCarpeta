@@ -31,3 +31,15 @@ const triggers = document.querySelectorAll('.quickinfo > li');
   triggers.forEach(trigger => trigger.addEventListener('mouseenter', handleEnter));
   triggers.forEach(trigger => trigger.addEventListener('mouseleave', handleLeave));
 
+  function digitalclock()
+  {
+    var elmnt=document.getElementById("clock");
+    var timenow=new Date();
+    elmnt.innerHTML=timenow.toLocaleTimeString().replace(/(.*)\D\d+/, '$1');
+    // toLocaleTimeString().replace(/(.*)\D\d+/, '$1');
+    
+  }
+  window.onload=function()
+  {
+    setInterval(digitalclock)
+  };
