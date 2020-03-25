@@ -658,10 +658,10 @@
 .shadow {
   width: 60%;
   height: 60%;
-  border-top-right-radius: 50%;
-  border-bottom-right-radius: 50%;
-  border-right: solid #ffffff 2px;
-  border-bottom: solid transparent 3px;
+  border-top-right-radius: 60%;
+  border-bottom-right-radius: 60%;
+  border-right: solid #ffffff 3px;
+  border-bottom: solid transparent 5px;
   border-top: 1px;
   transform: rotate(-40deg);
 }
