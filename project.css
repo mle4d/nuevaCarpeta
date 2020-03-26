@@ -620,7 +620,7 @@
   height: 40%;
   border-radius: 50%;
   box-shadow: 1px -1px 5px lightblue, inset  -1px -1px 8px #ffffffbe, inset -1px -1px 8px #60cbf5be;
-  background: radial-gradient(circle at -50% -20%,  #ffffff 40%, #fa9fe5 60%, #bfa4f0 80%);
+  background: radial-gradient(circle at -50% -20%,  #ffffff 30%, #fa9fe5 50%, #ffffff 85%, #bfa4f0 100%);
   background-size: 100%;
   align-self: flex-end;
   margin: 4%;
