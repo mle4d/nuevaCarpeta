@@ -184,14 +184,14 @@
 }
 #l {
   font-family: 'Reenie Beanie', cursive;
-  font-size: 3.2em;
+  font-size: 3.6em;
   background-color: #29d8c7;
   color: #bfa4f0;
   animation: TL ease-in-out 20s infinite;
 }
 #e {
   font-family: 'Reenie Beanie', cursive;
-  font-size: 3.3em;
+  font-size: 3.7em;
   background-color:#fa9fe5c9;
   color: #ffffff;
   animation: HME ease-in-out 20s infinite;
@@ -616,7 +616,7 @@
   transform: rotate(-5deg);
   border-top-left-radius: 70%;
   border-bottom-left-radius: 50%;
-  border-left: solid 5px #29d8c7;
+  border-left: solid 6px #29d8c7;
   border-bottom: solid 4px #60cbf5;
   border-top-right-radius: 50%;
   border-bottom-right-radius: 70%;
