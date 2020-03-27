@@ -615,12 +615,12 @@
   height: 40%;
   transform: rotate(-5deg);
   border-top-left-radius: 70%;
-  border-bottom-left-radius: 50%;
+  border-bottom-left-radius: 60%;
   border-left: solid 6px #29d8c7;
   border-bottom: solid 4px #60cbf5;
-  border-top-right-radius: 50%;
+  border-top-right-radius: 60%;
   border-bottom-right-radius: 70%;
-  border-right: solid 3px #bfa4f0;
+  border-right: solid 2px #bfa4f0;
   border-top: solid 2px #fa9fe5;
   color: #fa9fe5;
   align-self: center;
