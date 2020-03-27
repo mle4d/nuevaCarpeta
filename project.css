@@ -177,21 +177,21 @@
 }
 #M {
   font-family: 'Reenie Beanie', cursive;
-  font-size: 3em;
+  font-size: 3.1em;
   background-color: #60cbf5c9;
   color: #fa9fe5;
   animation: HME ease-in-out 20s infinite;
 }
 #l {
   font-family: 'Reenie Beanie', cursive;
-  font-size: 3em;
+  font-size: 3.2em;
   background-color: #29d8c7;
   color: #bfa4f0;
   animation: TL ease-in-out 20s infinite;
 }
 #e {
   font-family: 'Reenie Beanie', cursive;
-  font-size: 3em;
+  font-size: 3.3em;
   background-color:#fa9fe5c9;
   color: #ffffff;
   animation: HME ease-in-out 20s infinite;
