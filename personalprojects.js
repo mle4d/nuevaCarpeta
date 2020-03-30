@@ -14,16 +14,22 @@ document.querySelector('.nintiesPC').addEventListener('click', function() {
 });
 document.querySelector('.meowPC').addEventListener('click', function() {
   document.querySelector('.poster').style.background = 'url(assets/meowmachineposter.png)';
+  document.querySelector('#info').style.color = '#ffffff';
+  document.querySelector('#info').innerHTML = '	○Built with React <br>○Cute<br>○Meows<br>○Confuses Real Cats';
   document.querySelector('#art').style.display = 'none';
   window.body
 });
 document.querySelector('.bookshelfPC').addEventListener('click', function() {
   document.querySelector('.poster').style.background = 'url(assets/80sbookshelfposter.png)';
+  document.querySelector('#info').style.color = '#000000';
+  document.querySelector('#info').innerHTML = '100 item sorted array styled with CSS using the nth child selector';
   document.querySelector('#art').style.display = 'none';
   window.body
 });
 document.querySelector('.spacePC').addEventListener('click', function() {
   document.querySelector('.poster').style.background = 'url(assets/scrollinspaceposter.png)';
+  document.querySelector('#info').style.color = '#ffffff';
+  document.querySelector('#info').innerHTML = '	○Slide in on Scroll Function<br>○CSS Animations<br>○Customized Images';
   document.querySelector('#art').style.display = 'none';
   window.body
 });
