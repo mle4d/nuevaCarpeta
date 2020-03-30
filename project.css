@@ -265,6 +265,7 @@
   align-items: center;
   flex-wrap: wrap;
   z-index: +1;
+  background-size: cover;
 }
 #art {
   width: 100%;
@@ -359,7 +360,6 @@
   overflow: visible;
 }
 #info {
-  
   font-family: 'lato', serif;
   font-size: 1.2vw;
   line-height: 140%;
