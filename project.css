@@ -362,9 +362,9 @@
   
   font-family: 'lato', serif;
   font-size: 1.2vw;
-  color: #ffffffd8;
   line-height: 140%;
   padding-top: 15%;
+  text-align: center;
 }
 .laptop {
   width: 80%;
