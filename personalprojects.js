@@ -30,6 +30,8 @@ document.querySelector('.bookshelfPC').addEventListener('click', function() {
   document.querySelector('#info').style.color = '#000000';
   document.querySelector('#info').innerHTML = '100 item sorted array styled with CSS using the nth child selector';
   document.querySelector('#art').style.display = 'none';
+  document.querySelector('.screen').style.background = 'url(assets/bookshelfdesktop.png)';
+  document.querySelector('.dtss').style.display = 'none';
   window.body
 });
 document.querySelector('.spacePC').addEventListener('click', function() {
