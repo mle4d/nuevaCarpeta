@@ -1,5 +1,6 @@
 document.querySelector('.ballPC').addEventListener('click', function() {
-  document.querySelector('.poster').classList.toggle('ballPoster');
+  document.querySelector('.poster').style.background = 'url(assets/8ballposter.png)';
+  document.querySelector('#art').style.display = 'none';
   window.body
 });
 document.querySelector('.nintiesPC').addEventListener('click', function() {
