@@ -226,7 +226,7 @@
   align-self: flex-end;
   transform: rotate(-10deg) translateY(35%);
   font-family: 'Reenie Beanie', cursive;
-  font-size: 2vw;
+  font-size: 1.2vw;
   text-align: center;
   box-shadow: 1px 4px 7px rgba(0,0,0,.2);
 }
