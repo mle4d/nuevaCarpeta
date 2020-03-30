@@ -1,10 +1,6 @@
 document.querySelector('.ballPC').addEventListener('click', function() {
-  document.querySelector('#poster').classList.add('.flashbak');
+  document.querySelector('.poster').classList.toggle('test');
   console.log('click');
   window.body
 });
 
-// function myFunction() {
-//   var element = document.getElementById("myDIV");
-//   element.classList.remove("mystyle");
-// }
