@@ -141,9 +141,7 @@
   z-index: +1;
 }
 .screen {
-  background-image: url();
-  background-size: 100%;
-  background-position: 50% 20%;
+  background-size: cover;
   background-repeat: no-repeat;
   border-radius: 20px 20px 0px 0px;
   border: solid 20px #ffffff;
@@ -453,11 +451,11 @@
   animation: counterclockwise ease-in-out 20s infinite;
 }
 #circle3 {
-  height: 70%;
+  height: 65%;
   width: 60%;
   border-radius: 80%;
   border: solid 2px #60cbf5;
-  border-bottom: solid 1px #60cbf5;
+  border-bottom: solid 3px #60cbf5;
   display: flex;
   flex-direction: row;
   justify-content: center;
