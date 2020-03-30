@@ -21,6 +21,8 @@ document.querySelector('.meowPC').addEventListener('click', function() {
   document.querySelector('#info').style.color = '#ffffff';
   document.querySelector('#info').innerHTML = '	○Built with React <br>○Cute<br>○Meows<br>○Confuses Real Cats';
   document.querySelector('#art').style.display = 'none';
+  document.querySelector('.screen').style.background = 'url(assets/mmdesktop.png) top center';
+  document.querySelector('.dtss').style.display = 'none';
   window.body
 });
 document.querySelector('.bookshelfPC').addEventListener('click', function() {
