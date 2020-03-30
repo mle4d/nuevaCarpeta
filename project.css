@@ -358,10 +358,12 @@
   z-index: +1;
   overflow: visible;
 }
-.test {
+.ballPoster {
+  background-image: url(assets/8ballposter.png);
+  background-size: cover;
   width: 80%;
   height: 40%;
-  border: ridge red 10px;
+  border: ridge #bfa4f0 10px;
   align-self: center;
   display: flex;
   flex-direction: row;
@@ -370,20 +372,10 @@
   flex-wrap: wrap;
   z-index: +1;
 }
-/* .flashbak {
-  background-color: red;
-  width: 80%;
-  height: 40%;
-  border: ridge #bfa4f0bd 10px;
-  align-self: center;
+.ballPoster #art {
+  display: none;
 }
 
-.flashbak, #art {
-  display: none;
-}
-.flashbak, .tree {
-  display: none;
-} */
 .poster ul {
   display: none;
   font-family: 'lato', serif;
