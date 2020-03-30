@@ -4,18 +4,22 @@ document.querySelector('.ballPC').addEventListener('click', function() {
   window.body
 });
 document.querySelector('.nintiesPC').addEventListener('click', function() {
-  document.querySelector('.poster').classList.toggle('nintiesPoster');
+  document.querySelector('.poster').style.background = 'url(assets/90sposter.png)';
+  document.querySelector('#art').style.display = 'none';
   window.body
 });
 document.querySelector('.meowPC').addEventListener('click', function() {
-  document.querySelector('.poster').classList.toggle('meowPoster');
+  document.querySelector('.poster').style.background = 'url(assets/meowmachineposter.png)';
+  document.querySelector('#art').style.display = 'none';
   window.body
 });
 document.querySelector('.bookshelfPC').addEventListener('click', function() {
-  document.querySelector('.poster').classList.toggle('bookshelfPoster');
+  document.querySelector('.poster').style.background = 'url(assets/80sbookshelfposter.png)';
+  document.querySelector('#art').style.display = 'none';
   window.body
 });
 document.querySelector('.spacePC').addEventListener('click', function() {
-  document.querySelector('.poster').classList.toggle('spacePoster');
+  document.querySelector('.poster').style.background = 'url(assets/scrollinspaceposter.png)';
+  document.querySelector('#art').style.display = 'none';
   window.body
 });
