@@ -3,6 +3,8 @@ document.querySelector('.ballPC').addEventListener('click', function() {
   document.querySelector('#info').style.color = 'white';
   document.querySelector('#info').innerHTML = '	○CSS Animations <br>○CSS Made Image<br>○Speech Recognition<br>○Randomized Array Function';
   document.querySelector('#art').style.display = 'none';
+  document.querySelector('.screen').style.background = 'url(assets/c8bgif.gif)';
+  document.querySelector('.dtss').style.display = 'none';
   window.body
 });
 document.querySelector('.nintiesPC').addEventListener('click', function() {
