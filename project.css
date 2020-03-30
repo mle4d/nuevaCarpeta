@@ -358,14 +358,12 @@
   z-index: +1;
   overflow: visible;
 }
-.poster ul {
-  display: none;
+#info {
+  
   font-family: 'lato', serif;
   font-size: 1.2vw;
-  list-style: circle;
-  color: #000000;
+  color: #ffffffd8;
   line-height: 140%;
-  padding-left: 25%;
   padding-top: 15%;
 }
 .laptop {
