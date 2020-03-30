@@ -141,7 +141,7 @@
   z-index: +1;
 }
 .screen {
-  background-size: cover;
+  background-size: 10%;
   background-repeat: no-repeat;
   border-radius: 20px 20px 0px 0px;
   border: solid 20px #ffffff;
