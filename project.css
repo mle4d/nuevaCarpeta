@@ -257,7 +257,7 @@
 .poster {
   width: 80%;
   height: 40%;
-  border: ridge #bfa4f0bd 10px;
+  border: ridge #bfa4f0 10px;
   align-self: center;
   display: flex;
   flex-direction: row;
@@ -357,91 +357,6 @@
   flex-wrap: wrap;
   z-index: +1;
   overflow: visible;
-}
-.ballPoster {
-  background-image: url(assets/8ballposter.png);
-  background-size: cover;
-  width: 80%;
-  height: 40%;
-  border: ridge #bfa4f0 10px;
-  align-self: center;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  align-items: center;
-  flex-wrap: wrap;
-  z-index: +1;
-}
-.ballPoster #art {
-  display: none;
-}
-.nintiesPoster {
-  background-image: url(assets/90sposter.png);
-  background-size: cover;
-  width: 80%;
-  height: 40%;
-  border: ridge #bfa4f0 10px;
-  align-self: center;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  align-items: center;
-  flex-wrap: wrap;
-  z-index: +1;
-}
-.nintiesPoster #art {
-  display: none;
-}
-.meowPoster {
-  background-image: url(assets/meowmachineposter.png);
-  background-size: cover;
-  width: 80%;
-  height: 40%;
-  border: ridge #bfa4f0 10px;
-  align-self: center;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  align-items: center;
-  flex-wrap: wrap;
-  z-index: +1;
-}
-.meowPoster #art {
-  display: none;
-}
-.bookshelfPoster {
-  background-image: url(assets/80sbookshelfposter.png);
-  background-size: cover;
-  width: 80%;
-  height: 40%;
-  border: ridge #bfa4f0 10px;
-  align-self: center;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  align-items: center;
-  flex-wrap: wrap;
-  z-index: +1;
-}
-.bookshelfPoster #art {
-  display: none;
-}
-.spacePoster {
-  background-image: url(assets/scrollinspaceposter.png);
-  background-size: cover;
-  width: 80%;
-  height: 40%;
-  border: ridge #bfa4f0 10px;
-  align-self: center;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  align-items: center;
-  flex-wrap: wrap;
-  z-index: +1;
-}
-.spacePoster #art {
-  display: none;
 }
 .poster ul {
   display: none;
