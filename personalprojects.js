@@ -10,6 +10,8 @@ document.querySelector('.nintiesPC').addEventListener('click', function() {
   document.querySelector('#info').style.color = '#9c2ea1';
   document.querySelector('#info').innerHTML = '	○Custom Images <br>○Mouse follow image cursor<br>○Speech Recognition<br>○Speech Synthesis';
   document.querySelector('#art').style.display = 'none';
+  document.querySelector('.screen').style.background = 'url(assets/90sfbgif.gif)';
+  document.querySelector('.dtss').style.display = 'none';
   window.body
 });
 document.querySelector('.meowPC').addEventListener('click', function() {
