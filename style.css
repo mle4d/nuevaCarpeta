@@ -53,12 +53,13 @@ ul {
   line-height: 150%;
   font-weight: bolder;
 }
-a {
+.nav a {
   text-decoration: none;
   font-family: 'playfair display';
-  font-size: 120%;
+  font-size: 140%;
   color: #ffffff;
   border-radius: 20px;
+  letter-spacing: 2px;
 }
 
 nav {
@@ -72,8 +73,8 @@ nav {
 .quickinfo > li > a {
   color: #bfa4f0;
   text-decoration: none;
-  font-size: 100%;
-  padding: 10px 20px;
+  font-size: 140%;
+  padding: 10px 110px;
   display: inline-block;
   margin: 20px;
   border-radius: 5px;
@@ -166,16 +167,34 @@ nav ul {
 }
 .smlinks {
   text-align: center;
-  width: 8vw;
-  height: 15vh;
+  width: 10vw;
+  height: 22vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  line-height: 1.7;
+  line-height: 2.7;
 }
-
-.dropdown a {
+.dropdown2 {
+  transform: translateY(30%);
+  overflow: visible;
+}
+.arrow2 {
+  position: fixed;
+  width: 20px;
+  height: 20px;
+  display: block;
+  background: #b0f5ed;
+  transform: translateY(440%) rotate(45deg);
+  z-index: +1;
+}
+.dropdown2 a {
   text-decoration: none;
+  color: #fa9fe5;
+  font-size: 130%;
+}
+.dropdown2 a:hover {
+  text-decoration: underline;
+  text-decoration-color: #bfa4f0;
   color: #fa9fe5;
 }
 
