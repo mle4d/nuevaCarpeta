@@ -405,7 +405,7 @@
   justify-content: center;
   flex-wrap: wrap;
   background-color:#f0f0f0;
-  
+  background-size: cover;
 }
 .tab {
   height: 14%;
@@ -416,6 +416,13 @@
   font-family: 'Reenie Beanie', cursive;
   font-size: 1.3vw;
   box-shadow: 1px 4px 7px rgba(0,0,0,.2);
+  z-index: +1;
+}
+.tabLink {
+  font-family: 'Reenie Beanie', cursive;
+  color: #000000;
+  border-radius: 0px;
+  font-size: 1.3vw;
   z-index: +1;
 }
 .circles {
