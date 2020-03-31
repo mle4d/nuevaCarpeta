@@ -5,6 +5,7 @@ document.querySelector('.ballPC').addEventListener('click', function() {
   document.querySelector('#art').style.display = 'none';
   document.querySelector('.screen').style.background = 'url(assets/c8bgif.gif)';
   document.querySelector('.dtss').style.display = 'none';
+  document.querySelector('.sticky').innerHTML = '<a class="stickyLink" href="https://cosmic8ball.netlify.com/" target="_blank">Visit Site</a>';
   window.body
 });
 document.querySelector('.nintiesPC').addEventListener('click', function() {
@@ -14,6 +15,7 @@ document.querySelector('.nintiesPC').addEventListener('click', function() {
   document.querySelector('#art').style.display = 'none';
   document.querySelector('.screen').style.background = 'url(assets/90sfbgif.gif)';
   document.querySelector('.dtss').style.display = 'none';
+  document.querySelector('.sticky').innerHTML = '<a class="stickyLink" href="https://90sflashbak.netlify.com/" target="_blank">Visit Site</a>';
   window.body
 });
 document.querySelector('.meowPC').addEventListener('click', function() {
@@ -23,6 +25,7 @@ document.querySelector('.meowPC').addEventListener('click', function() {
   document.querySelector('#art').style.display = 'none';
   document.querySelector('.screen').style.background = 'url(assets/mmdesktop.png) top center';
   document.querySelector('.dtss').style.display = 'none';
+  document.querySelector('.sticky').innerHTML = '<a class="stickyLink" href="https://meowmachine.netlify.com/" target="_blank">Visit Site</a>';
   window.body
 });
 document.querySelector('.bookshelfPC').addEventListener('click', function() {
@@ -32,6 +35,7 @@ document.querySelector('.bookshelfPC').addEventListener('click', function() {
   document.querySelector('#art').style.display = 'none';
   document.querySelector('.screen').style.background = 'url(assets/bookshelfdesktop.png)';
   document.querySelector('.dtss').style.display = 'none';
+  document.querySelector('.sticky').innerHTML = '<a class="stickyLink" href="https://top100booksof1989.netlify.com/" target="_blank">Visit Site</a>';
   window.body
 });
 document.querySelector('.spacePC').addEventListener('click', function() {
@@ -39,5 +43,8 @@ document.querySelector('.spacePC').addEventListener('click', function() {
   document.querySelector('#info').style.color = '#ffffff';
   document.querySelector('#info').innerHTML = '	○Slide in on Scroll Function<br>○CSS Animations<br>○Customized Images';
   document.querySelector('#art').style.display = 'none';
+  document.querySelector('.screen').style.background = 'url(assets/sisdemo.gif)';
+  document.querySelector('.dtss').style.display = 'none';
+  document.querySelector('.sticky').innerHTML = '<a class="stickyLink" href="https://scrollinspace.netlify.com/" target="_blank">Visit Site</a>';
   window.body
 });
