@@ -19,6 +19,9 @@ document.querySelector('.nintiesPC').addEventListener('click', function() {
   document.querySelector('.screen').style.background = 'url(assets/90sfbgif.gif)';
   document.querySelector('.dtss').style.display = 'none';
   document.querySelector('.sticky').innerHTML = '<a class="stickyLink" href="https://90sflashbak.netlify.com/" target="_blank">Visit Site</a>';
+  document.querySelector('.LTscreen').style.background = 'url(assets/90srepo.gif) center center';
+  document.querySelector('.circles').style.display = 'none';
+  document.querySelector('.tab').innerHTML = '<a class="tabLink" href="https://github.com/mle4d/js3023" target="_blank">See Code</a>';
   window.body
 });
 document.querySelector('.meowPC').addEventListener('click', function() {
@@ -29,6 +32,9 @@ document.querySelector('.meowPC').addEventListener('click', function() {
   document.querySelector('.screen').style.background = 'url(assets/mmdesktop.png) top center';
   document.querySelector('.dtss').style.display = 'none';
   document.querySelector('.sticky').innerHTML = '<a class="stickyLink" href="https://meowmachine.netlify.com/" target="_blank">Visit Site</a>';
+  document.querySelector('.LTscreen').style.background = 'url(assets/mmrepo.gif) top center';
+  document.querySelector('.circles').style.display = 'none';
+  document.querySelector('.tab').innerHTML = '<a class="tabLink" href="https://github.com/mle4d/MeowMachine" target="_blank">See Code</a>';
   window.body
 });
 document.querySelector('.bookshelfPC').addEventListener('click', function() {
