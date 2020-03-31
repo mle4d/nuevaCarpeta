@@ -165,7 +165,8 @@ nav ul {
   line-height: 1;
 }
 .smlinks {
-  width: 10vw;
+  text-align: center;
+  width: 8vw;
   height: 15vh;
   display: flex;
   justify-content: center;
