@@ -40,5 +40,9 @@ document.querySelector('.pdaaFlyer').addEventListener('click', function() {
   document.querySelector('.phone').style.backgroundSize = '100%';
   document.querySelector('#clock').style.display = 'none';
   document.querySelector('#date').style.display = 'none';
+  document.querySelector('.screen').style.background = 'url(assets/pdaademo.gif)';
+  document.querySelector('.screen').style.backgroundSize = '100%';
+  document.querySelector('.dtss').style.display = 'none';
+  document.querySelector('.sticky').innerHTML = '<a class="stickyLink" href="https://pearldistrictartassociation.netlify.com/" target="_blank">Visit Site</a>';
   window.body
 });
