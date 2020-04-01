@@ -8,6 +8,10 @@ document.querySelector('.meltmenu').addEventListener('click', function() {
   document.querySelector('.phone').style.backgroundSize = '100%';
   document.querySelector('#clock').style.display = 'none';
   document.querySelector('#date').style.display = 'none';
+  document.querySelector('.screen').style.background = 'url(assets/meltdemo.gif)';
+  document.querySelector('.screen').style.backgroundSize = '100%';
+  document.querySelector('.dtss').style.display = 'none';
+  document.querySelector('.sticky').innerHTML = '<a class="stickyLink" href="https://eatmelt.netlify.com/" target="_blank">Visit Site</a>';
   window.body
 });
 document.querySelector('.pkccFlyer').addEventListener('click', function() {
@@ -20,6 +24,10 @@ document.querySelector('.pkccFlyer').addEventListener('click', function() {
   document.querySelector('.phone').style.backgroundSize = '100%';
   document.querySelector('#clock').style.display = 'none';
   document.querySelector('#date').style.display = 'none';
+  document.querySelector('.screen').style.background = 'url(assets/pkccdemo.gif)';
+  document.querySelector('.screen').style.backgroundSize = '100%';
+  document.querySelector('.dtss').style.display = 'none';
+  document.querySelector('.sticky').innerHTML = '<a class="stickyLink" href="https://pdxkidscodeclub.netlify.com/" target="_blank">Visit Site</a>';
   window.body
 });
 document.querySelector('.pdaaFlyer').addEventListener('click', function() {
