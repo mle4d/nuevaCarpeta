@@ -234,6 +234,7 @@
   flex-wrap: wrap;
   z-index: +1;
   background-size: cover;
+  overflow: scroll;
 }
 #art {
   width: 100%;
