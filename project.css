@@ -25,7 +25,7 @@
   overflow: visible;
 }
 .bulletin {
-  width: 18%;
+  width: 20%;
   height: 90%;
   margin-top: .5%;
   background: #ededed;
@@ -61,65 +61,12 @@
 .bulletin h3 {
   font-family: 'Lato', sans-serif;
   text-align: center;
+  letter-spacing: 2px;
+  height: 8%;
+  font-size: 100%;
+  align-self: flex-start;
 }
-.ballPC {
-  width: 40%;
-  height: 18%;
-  background-image: url(assets/8ballPC.png);
-  background-size: cover;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  flex-wrap: wrap;
-  overflow: visible;
-  transform: rotate(-10deg);
-}
-.nintiesPC {
-  width: 40%;
-  height: 18%;
-  background-image: url(assets/90sPC.png);
-  background-size: cover;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  flex-wrap: wrap;
-  overflow: visible;
-}
-.meowPC {
-  width: 40%;
-  height: 18%;
-  background-image: url(assets/meowmachinePC.png);
-  background-size: cover;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  flex-wrap: wrap;
-  overflow: visible;
-}
-.bookshelfPC {
-  width: 40%;
-  height: 18%;
-  background-image: url(assets/bookshelfPC.png);
-  background-size: cover;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  flex-wrap: wrap;
-  overflow: visible;
-  transform: rotate(-8deg);
-}
-.spacePC {
-  width: 40%;
-  height: 18%;
-  background-image: url(assets/scrollinspacePC.png);
-  background-size: cover;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  flex-wrap: wrap;
-  overflow: visible;
-  transform: rotate(8deg);
-}
+
 #pin {
   height: 4%;
   width: 2%;
@@ -127,7 +74,7 @@
   border: solid #ffffff 3px;
   border-radius: 50%;
   align-self: flex-start;
-  margin-top: -7%;
+  margin-top: -5%;
 }
 
 .desktop {
