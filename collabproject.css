@@ -4,8 +4,20 @@ body {
 #collabtab {
   color: #bfa4f0;
 }
+.moddopc {
+  width: 50%;
+  height: 32%;
+  background-image: url(assets/moddopc.png);
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  overflow: visible;
+  transform: rotate(-4deg);
+}
 .htsticker {
-  width: 38%;
+  width: 39%;
   height: 26%;
   background-image: url(assets/bobrosssticker.png);
   background-size: cover;
