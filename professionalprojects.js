@@ -32,6 +32,10 @@ document.querySelector('.pkccFlyer').addEventListener('click', function() {
   document.querySelector('.screen').style.backgroundSize = '100%';
   document.querySelector('.dtss').style.display = 'none';
   document.querySelector('.sticky').innerHTML = '<a class="stickyLink" href="https://pdxkidscodeclub.netlify.com/" target="_blank">Visit Site</a>';
+  document.querySelector('.LTscreen').style.background = 'url(assets/pkccrepo.gif)';
+  document.querySelector('.LTscreen').style.backgroundSize = '100%';
+  document.querySelector('.circles').style.display = 'none';
+  document.querySelector('.tab').innerHTML = '<a class="tabLink" href="https://github.com/mle4d/js3024" target="_blank">See Code</a>';
   window.body
 });
 document.querySelector('.pdaaFlyer').addEventListener('click', function() {
@@ -48,5 +52,9 @@ document.querySelector('.pdaaFlyer').addEventListener('click', function() {
   document.querySelector('.screen').style.backgroundSize = '100%';
   document.querySelector('.dtss').style.display = 'none';
   document.querySelector('.sticky').innerHTML = '<a class="stickyLink" href="https://pearldistrictartassociation.netlify.com/" target="_blank">Visit Site</a>';
+  document.querySelector('.LTscreen').style.background = 'url(assets/pdaarepo.gif)';
+  document.querySelector('.LTscreen').style.backgroundSize = '100%';
+  document.querySelector('.circles').style.display = 'none';
+  document.querySelector('.tab').innerHTML = '<a class="tabLink" href="https://github.com/mle4d/pdaa" target="_blank">See Code</a>';
   window.body
 });
