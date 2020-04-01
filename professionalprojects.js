@@ -4,6 +4,10 @@ document.querySelector('.meltmenu').addEventListener('click', function() {
   document.querySelector('#info').style.color = 'white';
   document.querySelector('#info').innerHTML = '	○<br>○<br>○<br>○';
   document.querySelector('#art').style.display = 'none';
+  document.querySelector('.phone').style.background = 'url(assets/meltmobile.jpg)';
+  document.querySelector('.phone').style.backgroundSize = '100%';
+  document.querySelector('#clock').style.display = 'none';
+  document.querySelector('#date').style.display = 'none';
   window.body
 });
 document.querySelector('.pkccFlyer').addEventListener('click', function() {
