@@ -4,3 +4,15 @@ body {
 #collabtab {
   color: #bfa4f0;
 }
+.htsticker {
+  width: 38%;
+  height: 26%;
+  background-image: url(assets/bobrosssticker.png);
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  overflow: visible;
+  /* transform: rotate(4deg); */
+}
