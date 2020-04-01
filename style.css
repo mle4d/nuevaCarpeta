@@ -56,8 +56,10 @@ ul {
   color: #ffffff;
   border-top-right-radius: 20px;
   border-top-left-radius: 20px;
+  border-top: inset 2px #ffffff;
+  border-left: inset 2px #ffffff;
   letter-spacing: 1px;
-  box-shadow: -1px -3px 3px rgba(0, 0, 0, 0.4);
+  /* box-shadow: -1px -3px 3px rgba(0, 0, 0, 0.4); */
 }
 
 #personaltab {
