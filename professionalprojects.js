@@ -1,8 +1,8 @@
 document.querySelector('.meltmenu').addEventListener('click', function() {
   document.querySelector('.poster').style.background = 'url(assets/meltposter.png)';
-  document.querySelector('.poster').style.backgroundSize = '100%';
+  document.querySelector('.poster').style.backgroundSize = 'cover';
   document.querySelector('#info').style.color = 'white';
-  document.querySelector('#info').innerHTML = '	○<br>○<br>○<br>○';
+  document.querySelector('#info').innerHTML = 'Melt is an idea I had for a single page site come to life. It has room for everything a small business would want online in a fun way.';
   document.querySelector('#art').style.display = 'none';
   document.querySelector('.phone').style.background = 'url(assets/meltmobile.jpg)';
   document.querySelector('.phone').style.backgroundSize = '100%';
@@ -20,9 +20,9 @@ document.querySelector('.meltmenu').addEventListener('click', function() {
 });
 document.querySelector('.pkccFlyer').addEventListener('click', function() {
   document.querySelector('.poster').style.background = 'url(assets/pkccposter.png)';
-  document.querySelector('.poster').style.backgroundSize = '100%';
-  document.querySelector('#info').style.color = 'white';
-  document.querySelector('#info').innerHTML = '	○<br>○<br>○<br>○';
+  document.querySelector('.poster').style.backgroundSize = 'cover';
+  document.querySelector('#info').style.color = '#42a596';
+  document.querySelector('#info').innerHTML = 'PDX Kids Code Club is a multi-page site featuring a neat sticky nav bar. Google maps & calendar are brought into the site, for both user & owner friendliness.';
   document.querySelector('#art').style.display = 'none';
   document.querySelector('.phone').style.background = 'url(assets/pkccmobile.jpg)';
   document.querySelector('.phone').style.backgroundSize = '100%';
@@ -40,9 +40,9 @@ document.querySelector('.pkccFlyer').addEventListener('click', function() {
 });
 document.querySelector('.pdaaFlyer').addEventListener('click', function() {
   document.querySelector('.poster').style.background = 'url(assets/pdaaposter.png)';
-  document.querySelector('.poster').style.backgroundSize = '100%';
+  document.querySelector('.poster').style.backgroundSize = 'cover';
   document.querySelector('#info').style.color = 'white';
-  document.querySelector('#info').innerHTML = '	○<br>○<br>○<br>○';
+  document.querySelector('#info').innerHTML = 'Pearl District Art Association is another idea for a single page site brought to life. Featuring customized images & CSS animations for a unique experience.';
   document.querySelector('#art').style.display = 'none';
   document.querySelector('.phone').style.background = 'url(assets/pdaamobile.jpg)';
   document.querySelector('.phone').style.backgroundSize = '100%';
