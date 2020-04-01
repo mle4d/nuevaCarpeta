@@ -61,10 +61,11 @@
 .bulletin h3 {
   font-family: 'Lato', sans-serif;
   text-align: center;
-  letter-spacing: 2px;
-  height: 8%;
+  letter-spacing: 3px;
+  height: 12%;
   font-size: 100%;
   align-self: flex-start;
+  margin-top: -1%;
 }
 
 #pin {
