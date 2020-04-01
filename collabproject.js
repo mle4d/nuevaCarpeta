@@ -58,3 +58,19 @@ document.querySelector('.atbsticker').addEventListener('click', function() {
   document.querySelector('.tab').innerHTML = '<a class="tabLink" href="https://github.com/rainbow-robots" target="_blank">See Code</a>';
   window.body
 });
+document.querySelector('.sotostrip').addEventListener('click', function() {
+  document.querySelector('.poster').style.background = 'url(assets/sotoposter.png)';
+  document.querySelector('.poster').style.backgroundSize = 'cover';
+  document.querySelector('#info').style.color = 'white';
+  document.querySelector('#info').innerHTML = '';
+  document.querySelector('#art').style.display = 'none';
+  document.querySelector('.screen').style.background = 'url(assets/sotodemo.gif)';
+  document.querySelector('.screen').style.backgroundSize = '100%';
+  document.querySelector('.dtss').style.display = 'none';
+  document.querySelector('.sticky').innerHTML = '<a class="stickyLink" href="https://spark-joy.github.io/index.html" target="_blank">Visit Site</a>';
+  document.querySelector('.LTscreen').style.background = 'url(assets/sotorepo.gif)';
+  document.querySelector('.LTscreen').style.backgroundSize = '100%';
+  document.querySelector('.circles').style.display = 'none';
+  document.querySelector('.tab').innerHTML = '<a class="tabLink" href="https://github.com/spark-joy/spark-joy.github.io" target="_blank">See Code</a>';
+  window.body
+});
