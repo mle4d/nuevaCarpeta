@@ -31,10 +31,10 @@ document.querySelector('.nintiesPC').addEventListener('click', function() {
   window.body
 });
 document.querySelector('.meowPC').addEventListener('click', function() {
-  document.querySelector('.poster').style.background = 'url(assets/meowmachineposter.png)';
+  document.querySelector('.poster').style.background = 'url(assets/meowmachineposter.png) bottom';
   document.querySelector('.poster').style.backgroundSize = 'cover';
   document.querySelector('#info').style.color = '#ffffff';
-  document.querySelector('#info').innerHTML = '	○Built with React <br>○Cute<br>○Meows<br>○Confuses Real Cats';
+  document.querySelector('#info').innerHTML = 'Meow Machine is the first site I ever made with React. It is nothing but cute & annoying, my cats hate it.';
   document.querySelector('#art').style.display = 'none';
   document.querySelector('.screen').style.background = 'url(assets/mmdesktop.png)';
   document.querySelector('.screen').style.backgroundSize = '100%';
@@ -50,7 +50,7 @@ document.querySelector('.bookshelfPC').addEventListener('click', function() {
   document.querySelector('.poster').style.background = 'url(assets/80sbookshelfposter.png)';
   document.querySelector('.poster').style.backgroundSize = 'cover';
   document.querySelector('#info').style.color = '#000000';
-  document.querySelector('#info').innerHTML = '100 item sorted array styled with CSS using the nth child selector';
+  document.querySelector('#info').innerHTML = 'This 1989 bookshelf is the top 100 books of the year put into a sorted array & styled with CSS using the nth child selector.';
   document.querySelector('#art').style.display = 'none';
   document.querySelector('.screen').style.background = 'url(assets/bookshelfdesktop.png)';
   document.querySelector('.screen').style.backgroundSize = '100%';
@@ -66,7 +66,7 @@ document.querySelector('.spacePC').addEventListener('click', function() {
   document.querySelector('.poster').style.background = 'url(assets/scrollinspaceposter.png)';
   document.querySelector('.poster').style.backgroundSize = 'cover';
   document.querySelector('#info').style.color = '#ffffff';
-  document.querySelector('#info').innerHTML = '	○Slide in on Scroll Function<br>○CSS Animations<br>○Customized Images';
+  document.querySelector('#info').innerHTML = 'Scroll in Space implements slide-in-on-scroll in a way I had not personally seen before. Customized images & CSS animations bring everything together.';
   document.querySelector('#art').style.display = 'none';
   document.querySelector('.screen').style.background = 'url(assets/sisdemo.gif)';
   document.querySelector('.screen').style.backgroundSize = '100%';
