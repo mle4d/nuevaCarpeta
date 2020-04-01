@@ -2,7 +2,7 @@ document.querySelector('.ballPC').addEventListener('click', function() {
   document.querySelector('.poster').style.background = 'url(assets/8ballposter.png)';
   document.querySelector('.poster').style.backgroundSize = 'cover';
   document.querySelector('#info').style.color = 'white';
-  document.querySelector('#info').innerHTML = '	○CSS Animations <br>○CSS Made Image<br>○Speech Recognition<br>○Randomized Array Function';
+  document.querySelector('#info').innerHTML = 'Cosmic 8 ball uses speech recognition so the user can ask a question outloud & the 8 ball answers using a randomized array. The 8 ball is made out of CSS & the site is jam packed with CSS animations.';
   document.querySelector('#art').style.display = 'none';
   document.querySelector('.screen').style.background = 'url(assets/c8bgif.gif)';
   document.querySelector('.screen').style.backgroundSize = '100%';
