@@ -65,7 +65,7 @@
   height: 12%;
   font-size: 100%;
   align-self: flex-start;
-  margin-top: -1%;
+  margin-top: 0%;
 }
 
 #pin {
@@ -616,7 +616,7 @@
 }
 .phone {
   width: 20%;
-  height: 120%;
+  height: 125%;
   background: rgb(241,226,238);
   background: rgb(17,17,17);
   background: linear-gradient(60deg,  #60cbf5 10%,  #29d8c7 30%, #bfa4f0 70%, #fa9fe5 90%);
@@ -640,7 +640,7 @@
   align-self: flex-start;
   margin-top: 10%;
   text-align: center;
-  transform: translateY(-80%) translateX(10%);
+  transform: translateY(-80%) translateX(20%);
 }
 #date {
   font-family: 'Lato';
