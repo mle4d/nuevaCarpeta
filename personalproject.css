@@ -1,0 +1,57 @@
+.ballPC {
+  width: 40%;
+  height: 22%;
+  background-image: url(assets/8ballPC.png);
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  overflow: visible;
+  transform: rotate(-10deg);
+}
+.nintiesPC {
+  width: 40%;
+  height: 22%;
+  background-image: url(assets/90sPC.png);
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  overflow: visible;
+}
+.meowPC {
+  width: 40%;
+  height: 22%;
+  background-image: url(assets/meowmachinePC.png);
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  overflow: visible;
+}
+.bookshelfPC {
+  width: 40%;
+  height: 22%;
+  background-image: url(assets/bookshelfPC.png);
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  overflow: visible;
+  transform: rotate(-8deg);
+}
+.spacePC {
+  width: 40%;
+  height: 22%;
+  background-image: url(assets/scrollinspacePC.png);
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  overflow: visible;
+}
