@@ -28,3 +28,15 @@ body {
   overflow: visible;
   /* transform: rotate(4deg); */
 }
+.atbsticker {
+  width: 30%;
+  height: 26%;
+  background-image: url(assets/botsticker.png);
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  overflow: visible;
+  transform: rotate(12deg);
+}
