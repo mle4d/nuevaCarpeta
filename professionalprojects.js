@@ -28,5 +28,9 @@ document.querySelector('.pdaaFlyer').addEventListener('click', function() {
   document.querySelector('#info').style.color = 'white';
   document.querySelector('#info').innerHTML = '	○<br>○<br>○<br>○';
   document.querySelector('#art').style.display = 'none';
+  document.querySelector('.phone').style.background = 'url(assets/pdaamobile.jpg)';
+  document.querySelector('.phone').style.backgroundSize = '100%';
+  document.querySelector('#clock').style.display = 'none';
+  document.querySelector('#date').style.display = 'none';
   window.body
 });
