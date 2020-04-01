@@ -640,7 +640,7 @@
   align-self: flex-start;
   margin-top: 10%;
   text-align: center;
-  transform: translateY(-80%) translateX(20%);
+  transform: translateY(-80%) translateX(15%);
 }
 #date {
   font-family: 'Lato';
