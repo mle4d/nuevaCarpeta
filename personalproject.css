@@ -1,3 +1,9 @@
+body {
+  background-color:  #e3e3e3;
+}
+#personaltab {
+  color: #fa9fe5;
+}
 .ballPC {
   width: 40%;
   height: 22%;
