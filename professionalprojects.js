@@ -12,6 +12,10 @@ document.querySelector('.meltmenu').addEventListener('click', function() {
   document.querySelector('.screen').style.backgroundSize = '100%';
   document.querySelector('.dtss').style.display = 'none';
   document.querySelector('.sticky').innerHTML = '<a class="stickyLink" href="https://eatmelt.netlify.com/" target="_blank">Visit Site</a>';
+  document.querySelector('.LTscreen').style.background = 'url(assets/meltrepo.gif)';
+  document.querySelector('.LTscreen').style.backgroundSize = '100%';
+  document.querySelector('.circles').style.display = 'none';
+  document.querySelector('.tab').innerHTML = '<a class="tabLink" href="https://github.com/mle4d/eatmelt.com" target="_blank">See Code</a>';
   window.body
 });
 document.querySelector('.pkccFlyer').addEventListener('click', function() {
