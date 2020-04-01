@@ -332,8 +332,10 @@
   font-family: 'lato', serif;
   font-size: 1.2vw;
   line-height: 140%;
-  padding-top: 15%;
   text-align: center;
+  overflow: scroll;
+  height: 55%;
+  align-self: flex-end;
 }
 .laptop {
   width: 80%;
