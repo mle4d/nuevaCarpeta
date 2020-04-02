@@ -16,32 +16,37 @@
 legend {
   font-family: 'Playfair Display', serif;
   color: #ffffff;
+}
+#mcs{
+  letter-spacing: 10px;
+  line-height: 40px;
+  text-align: right;
   font-size: 250%;
-  text-align: center;
-  text-decoration: underline;
 }
 .codestorycontainer {
   background-color: #bfa4f0;
-  transform: skewX(-12deg);
+  transform: skewX(12deg);
   width: 60%;
   height: 100%;
   justify-content: center;
   align-content: center;
   align-items: center;
+  overflow: scroll;
 }
 .codeStory {
   align-self: center;
   height: 100%;
   padding: 1%;
-  width: 86%;
-  margin-left: 4%;
+  width: 80%;
+  margin-left: 10%;
   overflow: scroll;
   text-align: justify;
   font-family: 'lato';
   color: #ffffff;
   font-size: 95%;
   border: none;
-  transform: skewX(12deg);
+  transform: skewX(-12deg);
+  z-index: +1;
 }
 
 #avatar {
@@ -52,23 +57,32 @@ legend {
 .aboutmecontainer {
   background-color: #fce3f8;
   transform: skewX(-34deg);
-  width: 25%;
+  width: 35%;
   height:100%;
   z-index: -1;
 }
 .aboutMe {
-  width: 80%;
-  height: 50%;
-  overflow: scroll;
-  text-align: center;
   font-family: 'lato';
   color: #ffffff;
-  font-size: 95%;
+  font-size: 90%;
   border: none;
   transform: skewX(34deg);
   background-color: #60cbf5;
+  overflow: scroll;
+  border-radius: 20px;
+}
+#aboutmetext {
+  width: 75%;
+  text-align: center;
 }
 #btc {
   background-color: #60cbf5;
   width: 110%;
+  border-bottom: #ffffff solid 4px;
+  text-align: center;
+  font-size: 110%;
+  letter-spacing: 5px;
+}
+.linkcontainer {
+  background-color: #fce3f8;
 }
