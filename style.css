@@ -32,7 +32,6 @@ ul {
   font-size: 100%;
 }
 .nav a:hover {
-  line-height: 150%;
   font-weight: bolder;
 }
 .nav a {
@@ -50,11 +49,20 @@ ul {
 #personaltab {
   background-color: #ebebeb;
 }
+#personaltab:hover {
+  color: #fa9fe5;
+}
 #professionaltab {
   background-color: #e1e1e1;
 }
+#professionaltab:hover {
+  color: #60cbf5;
+}
 #collabtab {
   background-color: #d7d7d7;
+}
+#collabtab:hover {
+  color: #bfa4f0;
 }
 nav {
   perspective: 600px;
