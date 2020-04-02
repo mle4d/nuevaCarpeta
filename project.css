@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Reenie+Beanie&display=swap');
 .container {
   background-color:  #b0f5ed69;
-  margin-left: 3.5%;
-  width: 85%;
-  height: 76vh;
+  text-align: center;
+  width: 90%;
+  height: 85vh;
   position: fixed;
-  top: 11%;
+  top: 8%;
+  left: 5%;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -658,7 +659,7 @@
   height: 12%;
   border-right: solid 30px #b6adb293;
   border-left: solid 25px #b5adb1;
-  box-shadow: -5px 0px 10px rgba(0, 0, 0, 0.4);
+  /* box-shadow: 0px -10px 30px rgba(0, 0, 0, 0.4); */
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -673,11 +674,11 @@
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
   border-top: solid 20px #ffffff;
-  border-left: solid 10px #ffffff;
-  border-right: solid 10px #ffffff;
+  border-left: solid 15px #ffffff;
+  border-right: solid 15px #ffffff;
   background: transparent;
   background: radial-gradient(circle, transparent 0%, transparent 10%,
    transparent 20%, transparent 30%, transparent 40%, transparent 50%, #ffffff 60%);
-  background-size: 20px 22px;
-  background-position: center center;
+  background-size: 24px 23px;
+  background-position: top center;
 }
