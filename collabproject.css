@@ -47,7 +47,7 @@
 .sotostrip {
   width: 16%;
   height: 51%;
-  background-image: url(assets/Sōto.png);
+  background-image: url(assets/soto.png);
   background-size: cover;
   display: flex;
   flex-direction: row;
