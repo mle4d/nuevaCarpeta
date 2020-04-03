@@ -118,6 +118,9 @@ legend {
   background-repeat: no-repeat;
   background-position: center;
 }
+.github:hover {
+  background-size: 85%;
+}
 .linkedin {
   background: url(assets/linkedin.png);
   width: 32%;
@@ -126,7 +129,9 @@ legend {
   background-repeat: no-repeat;
   background-position: center;
 }
-
+.linkedin:hover {
+  background-size: 85%;
+}
 .codepen {
   background-image: url(assets/codepen.png);
   width: 32%;
@@ -134,6 +139,9 @@ legend {
   background-size: 81%;
   background-repeat: no-repeat;
   background-position: center;
+}
+.codepen:hover {
+  background-size: 85%;
 }
 .resume {
   background-image: url(assets/resume.png);
@@ -143,6 +151,9 @@ legend {
   background-repeat: no-repeat;
   background-position: center;
 }
+.resume:hover {
+  background-size: 85%;
+}
 .email {
   background-image: url(assets/emailicon.png);
   width: 32%;
@@ -151,6 +162,9 @@ legend {
   background-repeat: no-repeat;
   background-position: center;
 }
+.email:hover {
+  background-size: 85%;
+}
 .phonenumber {
   background-image: url(assets/call.png);
   width: 32%;
@@ -158,4 +172,7 @@ legend {
   background-size: 80%;
   background-repeat: no-repeat;
   background-position: center;
+}
+.phonenumber:hover {
+  background-size: 85%;
 }
