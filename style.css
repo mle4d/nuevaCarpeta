@@ -199,4 +199,9 @@ nav ul {
     top: 100%;
     left: 0;
   }
+  .nav {
+    transform: scaleX(.5) scaleY(.6);
+    margin-top: -1%;
+    margin-left: 5%;
+  }
 }
