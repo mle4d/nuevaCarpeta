@@ -96,19 +96,63 @@ legend {
   height: 40%;
   width: 100%;
   background-color: #ffffff;
-  border: none;
+  border: double 12px #fa9fe5;
   border-bottom-left-radius: 20px;
   border-top-right-radius: 20px;
   transform: skewX(12deg);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-self: center;
 }
-#connectheader {
-  border-top-right-radius: 20px;
-  background-color: #ffffff;
-  width: 106%;
-  border-bottom: #60cbf5 solid 5px;
-  color: #bfa4f0;
-  text-align: center;
-  font-size: 150%;
-  letter-spacing: 4px;
-  line-height: 140%;
+
+.github {
+  background: url(assets/github.png);
+  width: 32%;
+  height: 48%;
+  background-size: 80%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.linkedin {
+  background: url(assets/linkedin.png);
+  width: 32%;
+  height: 48%;
+  background-size: 80%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.codepen {
+  background-image: url(assets/codepen.png);
+  width: 32%;
+  height: 48%;
+  background-size: 81%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.resume {
+  background-image: url(assets/resume.png);
+  width: 32%;
+  height: 48%;
+  background-size: 80%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.email {
+  background-image: url(assets/emailicon.png);
+  width: 32%;
+  height: 48%;
+  background-size: 80%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.phonenumber {
+  background-image: url(assets/call.png);
+  width: 32%;
+  height: 48%;
+  background-size: 80%;
+  background-repeat: no-repeat;
+  background-position: center;
 }
