@@ -1,14 +1,14 @@
 document.querySelector('.ballPC').addEventListener('click', function() {
-  document.querySelector('.poster').style.background = 'url(assets/8ballposter.png) center';
-  document.querySelector('.poster').style.backgroundSize = 'cover';
+  document.querySelector('.poster').style.background = 'url(assets/8ballposter.png) #70668b no-repeat center';
+  document.querySelector('.poster').style.backgroundSize = '100%';
   document.querySelector('#info').style.color = 'white';
   document.querySelector('#info').innerHTML = 'Cosmic 8 ball uses speech recognition so the user can ask a question outloud & the 8 ball answers using a randomized array. The 8 ball is made out of CSS & the site is jam packed with CSS animations.';
   document.querySelector('#art').style.display = 'none';
-  document.querySelector('.screen').style.background = 'url(assets/c8bgif.gif)';
+  document.querySelector('.screen').style.background = '#dedfe4 url(assets/c8bgif.gif) center no-repeat';
   document.querySelector('.screen').style.backgroundSize = '100%';
   document.querySelector('.dtss').style.display = 'none';
   document.querySelector('.sticky').innerHTML = '<a class="stickyLink" href="https://cosmic8ball.netlify.com/" target="_blank">Visit Site</a>';
-  document.querySelector('.LTscreen').style.background = 'url(assets/c8ballrepo.gif)';
+  document.querySelector('.LTscreen').style.background = 'url(assets/c8ballrepo.gif) center #24272c no-repeat';
   document.querySelector('.LTscreen').style.backgroundSize = '100%';
   document.querySelector('.circles').style.display = 'none';
   document.querySelector('.tab').innerHTML = '<a class="tabLink" href="https://github.com/mle4d/js3020" target="_blank">See Code</a>';
