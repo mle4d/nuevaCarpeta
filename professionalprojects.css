@@ -5,7 +5,7 @@
   color: #60cbf5;
 }
 .meltmenu {
-  width: 26%;
+  width: 28%;
   height: 44%;
   background-image: url(assets/meltmenu.png);
   background-size: cover;
@@ -17,7 +17,7 @@
   transform: rotate(4deg);
 }
 .pkccFlyer {
-  width: 38%;
+  width: 42%;
   height: 43%;
   background-image: url(assets/pdxkccflyer.png);
   background-size: cover;
