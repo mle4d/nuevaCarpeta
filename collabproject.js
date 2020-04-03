@@ -64,6 +64,10 @@ document.querySelector('.sotostrip').addEventListener('click', function() {
   document.querySelector('#info').style.color = '#000000';
   document.querySelector('#info').innerHTML = 'Sōto is a Vanilla JS Marie Kondo inspired sorting game built in four days on a team of three people.';
   document.querySelector('#art').style.display = 'none';
+  document.querySelector('.phone').style.background = '';
+  document.querySelector('.phone').style.backgroundSize = '100%';
+  document.querySelector('#clock').style.display = '';
+  document.querySelector('#date').style.display = '';
   document.querySelector('.screen').style.background = 'url(assets/sotodemo.gif)';
   document.querySelector('.screen').style.backgroundSize = '100%';
   document.querySelector('.dtss').style.display = 'none';
