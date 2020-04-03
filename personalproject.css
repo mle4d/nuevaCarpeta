@@ -5,8 +5,8 @@
   color: #fa9fe5;
 }
 .ballPC {
-  width: 40%;
-  height: 22%;
+  width: 45%;
+  height: 24%;
   background-image: url(assets/8ballPC.png);
   background-size: cover;
   display: flex;
@@ -17,8 +17,8 @@
   transform: rotate(-10deg);
 }
 .nintiesPC {
-  width: 40%;
-  height: 22%;
+  width: 45%;
+  height: 24%;
   background-image: url(assets/90sPC.png);
   background-size: cover;
   display: flex;
@@ -28,8 +28,8 @@
   overflow: visible;
 }
 .meowPC {
-  width: 40%;
-  height: 22%;
+  width: 45%;
+  height: 24%;
   background-image: url(assets/meowmachinePC.png);
   background-size: cover;
   display: flex;
@@ -39,8 +39,8 @@
   overflow: visible;
 }
 .bookshelfPC {
-  width: 40%;
-  height: 22%;
+  width: 45%;
+  height: 24%;
   background-image: url(assets/bookshelfPC.png);
   background-size: cover;
   display: flex;
@@ -51,8 +51,8 @@
   transform: rotate(-8deg);
 }
 .spacePC {
-  width: 40%;
-  height: 22%;
+  width: 45%;
+  height: 24%;
   background-image: url(assets/scrollinspacePC.png);
   background-size: cover;
   display: flex;
