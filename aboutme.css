@@ -82,6 +82,7 @@ legend {
 #aboutmetext {
   width: 90%;
   text-align: justify;
+  margin-left: 5%;
 }
 #btc {
   background-color: #60cbf5;
