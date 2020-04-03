@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Reenie+Beanie&display=swap');
 .container {
-  background-color:  #b0f5ed69;
   text-align: center;
   width: 90%;
   height: 85vh;
@@ -156,7 +155,7 @@
   animation: HME ease-in-out 20s infinite;
 }
 .screenbottom {
-  width: 110%;
+  width: 109%;
   height: 8%;
   border-radius: 0px 0px 20px 20px;
   background-color: #aaaaaa;
@@ -164,7 +163,7 @@
   flex-wrap: wrap;
   align-content: center;
   justify-content: space-evenly;
-  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.4);
+  box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.4);
   z-index: +1;
 }
 .space {
@@ -352,7 +351,7 @@
   border: 10px solid #ffffff;
   z-index: +1;
   transform: skewY(3deg);
-  box-shadow: 0px 3px 30px rgba(0, 0, 0, 0.4);
+  box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.4);
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -502,7 +501,7 @@
   width: 100%;
   height: 25%;
   background-color: #e6bfd4;
-  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.4);
+  box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.24);
   transform: skewX(-64deg);
   border-bottom: solid 12px #e3b2ccbd;
   border-right: solid 30px #e3b2ccbd;
@@ -639,16 +638,16 @@
 #clock {
   font-family: 'Lato';
   color: #ffffff;
-  font-size: 10px;
+  font-size: 70%;
   align-self: flex-start;
   margin-top: 10%;
   text-align: center;
-  transform: translateY(-80%) translateX(15%);
+  transform: translateY(-50%) translateX(19%);
 }
 #date {
   font-family: 'Lato';
   color: #ffffff;
-  font-size: 8px;
+  font-size: 60%;
   align-self: center;
   margin-top: 0%;
   text-align: center;
@@ -657,8 +656,7 @@
   width: 71%;
   height: 12%;
   border-right: solid 30px #b6adb293;
-  border-left: solid 25px #b5adb1;
-  /* box-shadow: 0px -10px 30px rgba(0, 0, 0, 0.4); */
+  border-left: solid 25px #b5adb1c4;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
