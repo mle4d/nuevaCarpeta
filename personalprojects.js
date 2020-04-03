@@ -1,5 +1,5 @@
 document.querySelector('.ballPC').addEventListener('click', function() {
-  document.querySelector('.poster').style.background = 'url(assets/8ballposter.png)';
+  document.querySelector('.poster').style.background = 'url(assets/8ballposter.png) center';
   document.querySelector('.poster').style.backgroundSize = 'cover';
   document.querySelector('#info').style.color = 'white';
   document.querySelector('#info').innerHTML = 'Cosmic 8 ball uses speech recognition so the user can ask a question outloud & the 8 ball answers using a randomized array. The 8 ball is made out of CSS & the site is jam packed with CSS animations.';
@@ -15,7 +15,7 @@ document.querySelector('.ballPC').addEventListener('click', function() {
   window.body
 });
 document.querySelector('.nintiesPC').addEventListener('click', function() {
-  document.querySelector('.poster').style.background = 'url(assets/90sposter.png)';
+  document.querySelector('.poster').style.background = 'url(assets/90sposter.png) center';
   document.querySelector('.poster').style.backgroundSize = 'cover';
   document.querySelector('#info').style.color = '#ffffff';
   document.querySelector('#info').innerHTML = '90s flashbak is a nostaligic site using customized images & mouse-follow for a different user perspective. This site using speech recognition & speech synthesis for the user to interact with.';
@@ -31,7 +31,7 @@ document.querySelector('.nintiesPC').addEventListener('click', function() {
   window.body
 });
 document.querySelector('.meowPC').addEventListener('click', function() {
-  document.querySelector('.poster').style.background = 'url(assets/meowmachineposter.png) bottom';
+  document.querySelector('.poster').style.background = 'url(assets/meowmachineposter.png) center bottom';
   document.querySelector('.poster').style.backgroundSize = 'cover';
   document.querySelector('#info').style.color = '#ffffff';
   document.querySelector('#info').innerHTML = 'Meow Machine is the first site I ever made with React. It is nothing but cute & annoying, my cats hate it.';
@@ -47,7 +47,7 @@ document.querySelector('.meowPC').addEventListener('click', function() {
   window.body
 });
 document.querySelector('.bookshelfPC').addEventListener('click', function() {
-  document.querySelector('.poster').style.background = 'url(assets/80sbookshelfposter.png)';
+  document.querySelector('.poster').style.background = 'url(assets/80sbookshelfposter.png) center';
   document.querySelector('.poster').style.backgroundSize = 'cover';
   document.querySelector('#info').style.color = '#000000';
   document.querySelector('#info').innerHTML = 'This 1989 bookshelf is the top 100 books of the year put into a sorted array & styled with CSS using the nth child selector.';
@@ -63,7 +63,7 @@ document.querySelector('.bookshelfPC').addEventListener('click', function() {
   window.body
 });
 document.querySelector('.spacePC').addEventListener('click', function() {
-  document.querySelector('.poster').style.background = 'url(assets/scrollinspaceposter.png)';
+  document.querySelector('.poster').style.background = 'url(assets/scrollinspaceposter.png) center';
   document.querySelector('.poster').style.backgroundSize = 'cover';
   document.querySelector('#info').style.color = '#ffffff';
   document.querySelector('#info').innerHTML = 'Scroll in Space implements slide-in-on-scroll in a way I had not personally seen before. Customized images & CSS animations bring everything together.';
