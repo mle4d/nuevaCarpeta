@@ -33,6 +33,7 @@ legend {
   align-content: center;
   align-items: center;
   overflow: scroll;
+  border: solid #ffffff 8px;
 }
 .codeStory {
   align-self: center;
@@ -67,6 +68,7 @@ legend {
   flex-direction: column;
   justify-content: space-evenly;
   overflow: visible;
+  border: solid #ffffff 8px;
 }
 .aboutMe {
   font-family: 'lato';
