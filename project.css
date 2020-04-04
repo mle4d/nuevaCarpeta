@@ -718,6 +718,7 @@
   .screenbottom {
     width: 99%;
     height: 8%;
+    border-radius: 0px 0px 10px 10px;
   }
   .sticky {
     width: 12%;
