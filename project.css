@@ -688,6 +688,86 @@
     width: 80%;
     height: 80vh;
   }
+  .desk {
+    transform: skewX(0deg);
+  }
+  .mug {
+    transform: skewX(0deg);
+  }
+  .handle {
+    height: 45%;
+    width: 20%;
+    border-left: solid 5px #ffffff;
+    border-bottom: solid 8px #ffffff;
+    border-top: solid 8px #ffffff;
+    border-right: solid 1px transparent;
+    border-radius: 50%;
+    transform: translateX(40%) translateY(-10%);
+    z-index: -1;
+  }
+  
+  .mugbody {
+    position: relative;
+    height: 90%;
+    width: 100%;
+    background: #ffffff;
+    border-top-left-radius: 125px 60px;
+    border-top-right-radius: 125px 60px;
+    border-bottom-left-radius: 125px 60px;
+    border-bottom-right-radius: 125px 60px;
+    align-self: flex-start;
+    box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.4);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    overflow: visible;
+  }
+  .coffee {
+    margin-top: 5%;
+    width: 80%;
+    height: 24%;
+    border-radius: 70%;
+    border-top: solid 1px #ffffff;
+    background-color: #543f30;
+    align-self: center;
+    box-shadow: inset 1px 1px 4px rgba(0, 0, 0, 0.8);
+  }
+  .powered {
+    display: none;
+  }
+  .stain {
+   display: none;
+  }
+  .phone {
+    border: solid #ffffff 3px;
+    border-right: inset #ffffff 3px;
+    border-bottom: ridge #ffffff 3px;
+    border-left: groove #ffffff 4px;
+    border-radius: 6px;
+    transform: skewX(6deg) skewY(-3deg) scaleY(.9) scaleX(1.1);
+  }
+  #clock {
+    font-family: 'Lato';
+    color: #ffffff;
+    font-size: 30%;
+    align-self: flex-start;
+    margin-top: 20%;
+    text-align: center;
+    transform: translateY(-50%) translateX(5%);
+  }
+  #date {
+    font-family: 'Lato';
+    color: #ffffff;
+    font-size: 20%;
+    align-self: center;
+    margin-top: 5%;
+    text-align: center;
+  }
+  .stain {
+
+  }
   .underdesk {
     display: none;
   }
