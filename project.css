@@ -735,6 +735,9 @@
     text-align: center;
     text-decoration: none;
   }
+  #info {
+    font-size: 3vw;
+  }
   .desk {
     transform: skewX(0deg);
     border-right: none;
