@@ -775,8 +775,8 @@
   .phone {
     border: solid #ffffff 3px;
     border-right: inset #ffffff 3px;
-    border-bottom: ridge #ffffff 4px;
-    border-left: groove #ffffff 4px;
+    border-bottom: ridge #ffffff 5px;
+    border-left: groove #ffffff 3px;
     border-radius: 6px;
     transform: skewX(6deg) skewY(-3deg) scaleY(.9) scaleX(1.1);
   }
