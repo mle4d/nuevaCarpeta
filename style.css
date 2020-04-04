@@ -202,7 +202,7 @@ nav ul {
   }
   .nav {
     transform: scaleX(.8) scaleY(1);
-    margin-top: 6%;
+    margin-top: 8%;
     margin-left: 8%;
     z-index: +1;
     font-size: 80%;
