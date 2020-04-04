@@ -755,11 +755,11 @@
     font-size: 3vw;
   }
   .LTbottom {
-    height: 38%;
+    height: 39%;
     width: 92%;
     background-color: #cbcbcb;
     border-radius: 10px 10px 10px 10px;
-    transform: skewX(-30deg) skewY(3deg) translateX(-14%);
+    transform: skewX(-30deg) skewY(3deg) translateX(-13%);
     border-bottom: 4px solid #a0a0a0;
     border-right: 3px solid #a0a0a0;
     display: flex;
