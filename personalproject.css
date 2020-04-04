@@ -66,28 +66,8 @@
   flex-wrap: wrap;
   overflow: visible;
 }
-@media screen and (min-width: 320px) and (max-width: 767px) and (orientation: portrait) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   html {
     background-color: #fa9fe54a;
-  }
-  .ballPC {
-    width: 50%;
-    background-size: cover;
-  }
-  .nintiesPC {
-    width: 50%;
-    background-size: cover;
-  }
-  .meowPC {
-    width: 50%;
-    background-size: cover;
-  }
-  .bookshelfPC {
-    width: 50%;
-    background-size: cover;
-  }
-  .spacePC {
-    width: 50%;
-    background-size: cover;
   }
 }
