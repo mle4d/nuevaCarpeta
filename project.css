@@ -738,7 +738,7 @@
     height: 58%;
   }
   .LTscreen {
-    height: 53%;
+    height: 55%;
     width: 76%;
     transform: skewY(3deg);
     border: 5px solid #ffffff;
@@ -752,7 +752,7 @@
   }
   .LTbottom {
     height: 39%;
-    width: 92%;
+    width: 91%;
     border-radius: 10px 10px 10px 10px;
     transform: skewX(-30deg) skewY(3deg) translateX(-15%);
     border-bottom: 4px solid #a0a0a0;
