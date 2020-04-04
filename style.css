@@ -201,8 +201,11 @@ nav ul {
     left: 0;
   }
   .nav {
-    transform: scaleX(.5) scaleY(.6);
-    margin-top: -1%;
-    margin-left: 5%;
+    transform: scaleX(.8) scaleY(1);
+    margin-top: 4%;
+    margin-left: 8%;
+  }
+  nav {
+    display: none;
   }
 }
