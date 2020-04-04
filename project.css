@@ -728,12 +728,7 @@
     font-size: 2vw;
   }
   .stickyLink {
-    transform: rotate(-10deg) translateY(35%);
-    font-family: 'Reenie Beanie', cursive;
-    color: #000000;
     font-size: 3vw;
-    text-align: center;
-    text-decoration: none;
   }
   .tree {
     transform: translateY(-40%) translateX(-44%);
@@ -743,9 +738,10 @@
     height: 58%;
   }
   .LTscreen {
-    height: 55%;
+    height: 53%;
     width: 76%;
     transform: skewY(3deg);
+    border: 5px solid #ffffff;
   }
   .tab {
     transform: translateX(200%) translateY(-80%);
