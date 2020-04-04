@@ -742,6 +742,18 @@
     font-size: 3vw;
     height: 58%;
   }
+  .LTscreen {
+    height: 55%;
+    width: 76%;
+    transform: skewY(0deg);
+  }
+  .tab {
+    transform: translateX(200%) translateY(-80%);
+    font-size: 3vw;
+  }
+  .tabLink {
+    font-size: 3vw;
+  }
   .desk {
     transform: skewX(0deg);
     border-right: none;
