@@ -752,7 +752,7 @@
   }
   .LTbottom {
     height: 39%;
-    width: 91%;
+    width: 90%;
     border-radius: 10px 10px 10px 10px;
     transform: skewX(-30deg) skewY(3deg) translateX(-15%);
     border-bottom: 4px solid #a0a0a0;
