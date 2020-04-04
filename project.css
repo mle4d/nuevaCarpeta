@@ -725,7 +725,7 @@
   .sticky {
     width: 12%;
     height: 140%;
-    font-size: 3vw;
+    font-size: 2vw;
   }
   .stickyLink {
     transform: rotate(-10deg) translateY(35%);
