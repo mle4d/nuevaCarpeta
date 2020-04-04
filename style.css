@@ -220,8 +220,8 @@ nav ul {
   }
   .nav {
     transform: scaleX(.8) scaleY(1);
-    margin-top: 4%;
-    margin-left: 8%;
+    /* margin-top: 4%;
+    margin-left: 8%; */
   }
   nav {
     display: none;
