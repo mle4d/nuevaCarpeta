@@ -687,19 +687,13 @@
     width: 90%;
     height: 50vh;
   }
-  .bulletin {
-    width: 16%;
-    height: 80%;
-  }
   .bulletin h3 {
     font-size: 50%;
-    align-self: flex-start;
-    margin-top: 2%;
   }
   .desktop {
     width: 40%;
     height: 100%;
-    margin-top: 15%;
+    margin-top: 10%;
   }
   .screen {
     background-size: 100%;
@@ -710,6 +704,18 @@
     height: 55%;
     background-color: #f1f1f1;
   }
+  .screen p {
+    font-size: 1em;
+  }
+  #M {
+    font-size: 2.1em;
+  }
+  #l {
+    font-size: 2em;
+  }
+  #e {
+    font-size: 2em;
+  }
   .screenbottom {
     width: 99%;
     height: 8%;
@@ -718,13 +724,13 @@
   .sticky {
     width: 12%;
     height: 140%;
-    font-size: 2vw;
+    font-size: 1vw;
   }
   .stickyLink {
     transform: rotate(-10deg) translateY(35%);
     font-family: 'Reenie Beanie', cursive;
     color: #000000;
-    font-size: 5vw;
+    font-size: 1.5vw;
     text-align: center;
     text-decoration: none;
   }
@@ -736,17 +742,17 @@
     transform: skewX(0deg);
   }
   .handle {
-    height: 45%;
+    height: 35%;
     width: 20%;
     border-left: solid 5px #ffffff;
     border-bottom: solid 8px #ffffff;
     border-top: solid 8px #ffffff;
-    transform: translateX(40%) translateY(-10%);
+    transform: translateX(40%) translateY(-5%);
   }
   
   .mugbody {
     height: 90%;
-    width: 100%;
+    width: 90%;
     border-top-left-radius: 125px 60px;
     border-top-right-radius: 125px 60px;
     border-bottom-left-radius: 125px 60px;
@@ -778,13 +784,13 @@
   }
   #clock {
     font-size: 30%;
-    margin-top: 20%;
+    margin-top: 18%;
     text-align: center;
-    transform: translateY(-50%) translateX(2%);
+    transform: translateY(-10%) translateX(2%);
   }
   #date {
     font-size: 6px;
-    margin-top: 5%;
+    margin-top: -30%;
   }
   .underdesk {
     display: none;
