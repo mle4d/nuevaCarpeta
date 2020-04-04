@@ -737,6 +737,7 @@
   }
   #info {
     font-size: 3vw;
+    height: 60%;
   }
   .desk {
     transform: skewX(0deg);
