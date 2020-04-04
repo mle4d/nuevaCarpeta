@@ -708,9 +708,9 @@
   }
   .screen {
     border-radius: 20px 20px 0px 0px;
-    border: solid 10px #ffffff;
-    border-bottom: solid 10px #ffffff;
-    width: 85%;
+    border: solid 5px #ffffff;
+    border-bottom: solid 5px #ffffff;
+    width: 75%;
     height: 45%;
     background-color: #f1f1f1;
   }
