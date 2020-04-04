@@ -799,7 +799,7 @@
   .desktop {
     width: 40%;
     height: 100%;
-    margin-top: 25%;
+    margin-top: 15%;
   }
   .screen {
     background-size: 100%;
@@ -836,7 +836,7 @@
     transform: skewX(0deg);
   }
   .handle {
-    height: 45%;
+    height: 40%;
     width: 20%;
     border-left: solid 5px #ffffff;
     border-bottom: solid 8px #ffffff;
@@ -846,7 +846,7 @@
   
   .mugbody {
     height: 90%;
-    width: 100%;
+    width: 90%;
     border-top-left-radius: 125px 60px;
     border-top-right-radius: 125px 60px;
     border-bottom-left-radius: 125px 60px;
@@ -880,11 +880,11 @@
     font-size: 30%;
     margin-top: 20%;
     text-align: center;
-    transform: translateY(-50%) translateX(2%);
+    transform: translateY(-20%) translateX(2%);
   }
   #date {
     font-size: 6px;
-    margin-top: 5%;
+    margin-top: 0%;
   }
   .underdesk {
     display: none;
