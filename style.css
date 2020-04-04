@@ -201,9 +201,8 @@ nav ul {
     left: 0;
   }
   .nav {
-    transform: scaleX(.8) scaleY(1);
-    margin-top: 7%;
-    margin-left: 8%;
+    margin-top: 1%;
+    margin-left: 10%;
     z-index: +1;
     font-size: 80%;
   }
