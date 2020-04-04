@@ -883,7 +883,9 @@
     transform: skewY(3deg);
     border: 5px solid #ffffff;
   }
-
+  .tab {
+    transform: translateX(150%) translateY(-80%);
+  }
   .LTbottom {
     height: 39%;
     width: 90%;
