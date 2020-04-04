@@ -745,7 +745,7 @@
   .LTscreen {
     height: 55%;
     width: 76%;
-    transform: skewY(0deg);
+    transform: skewY(3deg);
   }
   .tab {
     transform: translateX(200%) translateY(-80%);
