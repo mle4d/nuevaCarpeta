@@ -735,6 +735,7 @@
   }
   .desk {
     transform: skewX(0deg);
+    border-right: none;
   }
   .mug {
     transform: skewX(0deg);
