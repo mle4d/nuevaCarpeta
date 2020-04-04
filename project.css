@@ -795,3 +795,98 @@
     display: none;
   }
 }
+@media screen and (min-width: 320px) and (max-width: 767px) and (orientation: landscape) {
+  .desktop {
+    width: 40%;
+    height: 100%;
+    margin-top: 25%;
+  }
+  .screen {
+    background-size: 100%;
+    border-radius: 10px 10px 0px 0px;
+    border: solid 5px #ffffff;
+    border-bottom: solid 5px #ffffff;
+    width: 95%;
+    height: 55%;
+    background-color: #f1f1f1;
+  }
+  .screenbottom {
+    width: 99%;
+    height: 8%;
+    border-radius: 0px 0px 10px 10px;
+  }
+  .sticky {
+    width: 12%;
+    height: 140%;
+    font-size: 2vw;
+  }
+  .stickyLink {
+    transform: rotate(-10deg) translateY(35%);
+    font-family: 'Reenie Beanie', cursive;
+    color: #000000;
+    font-size: 5vw;
+    text-align: center;
+    text-decoration: none;
+  }
+  .desk {
+    transform: skewX(0deg);
+    border-right: none;
+  }
+  .mug {
+    transform: skewX(0deg);
+  }
+  .handle {
+    height: 45%;
+    width: 20%;
+    border-left: solid 5px #ffffff;
+    border-bottom: solid 8px #ffffff;
+    border-top: solid 8px #ffffff;
+    transform: translateX(40%) translateY(-10%);
+  }
+  
+  .mugbody {
+    height: 90%;
+    width: 100%;
+    border-top-left-radius: 125px 60px;
+    border-top-right-radius: 125px 60px;
+    border-bottom-left-radius: 125px 60px;
+    border-bottom-right-radius: 125px 60px;
+  }
+  .coffee {
+    margin-top: 6%;
+    width: 80%;
+    height: 24%;
+    border-radius: 70%;
+    border-top: solid 1px #ffffff;
+    background-color: #543f30;
+    align-self: center;
+    box-shadow: inset 1px 1px 4px rgba(0, 0, 0, 0.8);
+  }
+  .powered {
+    display: none;
+  }
+  .stain {
+   display: none;
+  }
+  .phone {
+    border: solid #ffffff 3px;
+    border-right: inset #ffffff 2px;
+    border-bottom: ridge #ffffff 5px;
+    border-left: groove #ffffff 3px;
+    border-radius: 6px;
+    transform: skewX(6deg) skewY(-3deg) scaleY(.9) scaleX(1.1);
+  }
+  #clock {
+    font-size: 30%;
+    margin-top: 20%;
+    text-align: center;
+    transform: translateY(-50%) translateX(2%);
+  }
+  #date {
+    font-size: 6px;
+    margin-top: 5%;
+  }
+  .underdesk {
+    display: none;
+  }
+}
