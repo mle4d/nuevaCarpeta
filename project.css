@@ -799,7 +799,7 @@
   .desktop {
     width: 40%;
     height: 100%;
-    margin-top: 15%;
+    margin-top: 5%;
   }
   .screen {
     background-size: 100%;
@@ -824,7 +824,7 @@
     transform: rotate(-10deg) translateY(35%);
     font-family: 'Reenie Beanie', cursive;
     color: #000000;
-    font-size: 2vw;
+    font-size: 1.5vw;
     text-align: center;
     text-decoration: none;
   }
@@ -836,12 +836,12 @@
     transform: skewX(0deg);
   }
   .handle {
-    height: 40%;
+    height: 35%;
     width: 20%;
     border-left: solid 5px #ffffff;
     border-bottom: solid 8px #ffffff;
     border-top: solid 8px #ffffff;
-    transform: translateX(40%) translateY(-10%);
+    transform: translateX(40%) translateY(-5%);
   }
   
   .mugbody {
@@ -884,7 +884,7 @@
   }
   #date {
     font-size: 6px;
-    margin-top: -5%;
+    margin-top: -15%;
   }
   .underdesk {
     display: none;
