@@ -775,7 +775,7 @@
   }
   .phone {
     border: solid #ffffff 3px;
-    border-right: inset #ffffff 3px;
+    border-right: inset #ffffff 2px;
     border-bottom: ridge #ffffff 5px;
     border-left: groove #ffffff 3px;
     border-radius: 6px;
