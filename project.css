@@ -701,7 +701,37 @@
     align-self: flex-start;
     margin-top: 2%;
   }
-
+  .desktop {
+    width: 40%;
+    height: 100%;
+    margin-top: 15%;
+  }
+  .screen {
+    border-radius: 20px 20px 0px 0px;
+    border: solid 10px #ffffff;
+    border-bottom: solid 10px #ffffff;
+    width: 95%;
+    height: 55%;
+    background-color: #f1f1f1;
+  }
+  .screenbottom {
+    width: 99%;
+    height: 8%;
+  }
+  .sticky {
+    width: 12%;
+    height: 140%;
+    font-size: 4vw;
+   
+  }
+  .stickyLink {
+    transform: rotate(-10deg) translateY(35%);
+    font-family: 'Reenie Beanie', cursive;
+    color: #000000;
+    font-size: 5vw;
+    text-align: center;
+    text-decoration: none;
+  }
   .desk {
     transform: skewX(0deg);
   }
