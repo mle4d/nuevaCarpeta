@@ -219,9 +219,10 @@ nav ul {
     left: 0;
   }
   .nav {
-    transform: scaleX(.8) scaleY(1);
-    margin-top: 10%;
-    margin-left: 8%;
+    /* transform: scaleX(.8) scaleY(1); */
+    margin-top: 30%;
+    margin-left: 2%;
+    z-index: +1;
   }
   nav {
     display: none;
