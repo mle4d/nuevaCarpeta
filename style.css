@@ -204,6 +204,8 @@ nav ul {
     transform: scaleX(.8) scaleY(1);
     margin-top: 6%;
     margin-left: 8%;
+    z-index: +1;
+    font-size: 80%;
   }
   nav {
     display: none;
