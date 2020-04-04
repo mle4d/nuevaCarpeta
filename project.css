@@ -394,7 +394,7 @@
 }
 #circle1 {
   height:90%;
-  width: 170%;
+  width: 150%;
   border-radius: 80%;
   border: solid 4px #bfa4f0;
   border-left: solid 8px #bfa4f0;
@@ -744,7 +744,7 @@
   }
   .LTscreen {
     height: 55%;
-    width: 76%;
+    width: 78%;
     transform: skewY(3deg);
   }
   .tab {
