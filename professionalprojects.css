@@ -8,7 +8,8 @@
   width: 28%;
   height: 44%;
   background-image: url(assets/meltmenu.png);
-  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: 100%;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -20,7 +21,8 @@
   width: 42%;
   height: 43%;
   background-image: url(assets/pdxkccflyer.png);
-  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: 100%;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -32,6 +34,7 @@
   width: 65%;
   height: 38%;
   background-image: url(assets/pdaaflyer.png);
+  background-repeat: no-repeat;
   background-size: 100%;
   display: flex;
   flex-direction: row;
