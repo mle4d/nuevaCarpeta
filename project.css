@@ -753,7 +753,7 @@
     font-size: 30%;
     margin-top: 20%;
     text-align: center;
-    transform: translateY(-50%) translateX(4%);
+    transform: translateY(-50%) translateX(2%);
   }
   #date {
     font-size: 6px;
