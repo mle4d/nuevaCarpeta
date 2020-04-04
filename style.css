@@ -220,7 +220,7 @@ nav ul {
   }
   .nav {
     /* transform: scaleX(.8) scaleY(1); */
-    margin-top: 30%;
+    margin-top: -10%;
     margin-left: 2%;
     z-index: +1;
   }
