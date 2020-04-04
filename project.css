@@ -736,7 +736,7 @@
     text-decoration: none;
   }
   .tree {
-    transform: translateY(-40%) translateX(-43%);
+    transform: translateY(-40%) translateX(-44%);
   }
   #info {
     font-size: 3vw;
@@ -851,6 +851,9 @@
     font-size: 1.5vw;
     text-align: center;
     text-decoration: none;
+  }
+  .tree {
+    transform: translateY(-40%) translateX(-44%);
   }
   .desk {
     transform: skewX(0deg);
