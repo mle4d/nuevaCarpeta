@@ -818,13 +818,13 @@
   .sticky {
     width: 12%;
     height: 140%;
-    font-size: 2vw;
+    font-size: 1vw;
   }
   .stickyLink {
     transform: rotate(-10deg) translateY(35%);
     font-family: 'Reenie Beanie', cursive;
     color: #000000;
-    font-size: 5vw;
+    font-size: 2vw;
     text-align: center;
     text-decoration: none;
   }
@@ -880,11 +880,11 @@
     font-size: 30%;
     margin-top: 20%;
     text-align: center;
-    transform: translateY(-20%) translateX(2%);
+    transform: translateY(-10%) translateX(2%);
   }
   #date {
     font-size: 6px;
-    margin-top: 0%;
+    margin-top: -5%;
   }
   .underdesk {
     display: none;
