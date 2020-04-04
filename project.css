@@ -704,7 +704,7 @@
   .desktop {
     width: 40%;
     height: 100%;
-    margin-top: 15%;
+    margin-top: 25%;
   }
   .screen {
     background-size: 100%;
@@ -712,7 +712,7 @@
     border: solid 5px #ffffff;
     border-bottom: solid 5px #ffffff;
     width: 95%;
-    height: 45%;
+    height: 55%;
     background-color: #f1f1f1;
   }
   .screenbottom {
