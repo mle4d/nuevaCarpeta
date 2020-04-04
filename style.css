@@ -220,9 +220,9 @@ nav ul {
   }
   .nav {
     margin-top: -56%;
-    margin-left: 15%;
+    margin-left: 12%;
     z-index: +1;
-    font-size: 90%;
+    font-size: 80%;
   }
   nav {
     display: none;
