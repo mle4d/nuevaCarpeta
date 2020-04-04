@@ -690,7 +690,7 @@
   }
   .bulletin {
     width: 20%;
-    height: 100%;
+    height: 80%;
   }
   .bulletin h3 {
     font-family: 'Lato', sans-serif;
@@ -750,21 +750,14 @@
     transform: skewX(6deg) skewY(-3deg) scaleY(.9) scaleX(1.1);
   }
   #clock {
-    font-family: 'Lato';
-    color: #ffffff;
     font-size: 30%;
-    align-self: flex-start;
     margin-top: 20%;
     text-align: center;
     transform: translateY(-50%) translateX(5%);
   }
   #date {
-    font-family: 'Lato';
-    color: #ffffff;
-    font-size: 20%;
-    align-self: center;
+    font-size: 10%;
     margin-top: 5%;
-    text-align: center;
   }
   .underdesk {
     display: none;
