@@ -32,7 +32,7 @@
 .meowPC {
   width: 45%;
   height: 24%;
-  background-image: url(assets/meowmachinePC.png);
+  background: url(assets/meowmachinePC.png) center;
   background-repeat: no-repeat;
   background-size: 100%;
   display: flex;
@@ -44,7 +44,7 @@
 .bookshelfPC {
   width: 45%;
   height: 24%;
-  background-image: url(assets/bookshelfPC.png);
+  background: url(assets/bookshelfPC.png) center;
   background-repeat: no-repeat;
   background-size: 100%;
   display: flex;
@@ -65,4 +65,29 @@
   justify-content: center;
   flex-wrap: wrap;
   overflow: visible;
+}
+@media screen and (min-width: 320px) and (max-width: 767px) and (orientation: portrait) {
+  html {
+    background-color: #fa9fe54a;
+  }
+  .ballPC {
+    width: 50%;
+    background-size: cover;
+  }
+  .nintiesPC {
+    width: 50%;
+    background-size: cover;
+  }
+  .meowPC {
+    width: 50%;
+    background-size: cover;
+  }
+  .bookshelfPC {
+    width: 50%;
+    background-size: cover;
+  }
+  .spacePC {
+    width: 50%;
+    background-size: cover;
+  }
 }
