@@ -683,7 +683,7 @@
 @media screen and (min-width: 320px) and (max-width: 767px) and (orientation: portrait) {
   .container {
     transform: scaleX(1.1) scaleY(.6);
-    margin-top: -12%;
+    margin-top: -5%;
     box-shadow: 0px 0px 0px rgba(0, 0, 0, 0), 0px 0px 0px rgba(0, 0, 0, 0);
     width: 80%;
     height: 80vh;
