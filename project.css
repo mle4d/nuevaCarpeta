@@ -810,6 +810,18 @@
     height: 55%;
     background-color: #f1f1f1;
   }
+  .screen p {
+    font-size: 1em;
+  }
+  #M {
+    font-size: 2.1em;
+  }
+  #l {
+    font-size: 2.6em;
+  }
+  #e {
+    font-size: 2.7em;
+  }
   .screenbottom {
     width: 99%;
     height: 8%;
