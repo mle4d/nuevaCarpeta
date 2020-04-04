@@ -799,7 +799,7 @@
   .desktop {
     width: 40%;
     height: 100%;
-    margin-top: 5%;
+    margin-top: 10%;
   }
   .screen {
     background-size: 100%;
@@ -878,13 +878,13 @@
   }
   #clock {
     font-size: 30%;
-    margin-top: 20%;
+    margin-top: 18%;
     text-align: center;
     transform: translateY(-10%) translateX(2%);
   }
   #date {
     font-size: 6px;
-    margin-top: -25%;
+    margin-top: -30%;
   }
   .underdesk {
     display: none;
