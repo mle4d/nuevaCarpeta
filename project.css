@@ -735,6 +735,9 @@
     text-align: center;
     text-decoration: none;
   }
+  .tree {
+    transform: translateY(-40%) translateX(-40%);
+  }
   #info {
     font-size: 3vw;
     height: 58%;
