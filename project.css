@@ -736,7 +736,7 @@
     text-decoration: none;
   }
   .tree {
-    transform: translateX(-43%);
+    transform: translateY(-40%) translateX(-43%);
   }
   #info {
     font-size: 3vw;
