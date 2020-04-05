@@ -90,13 +90,13 @@
   z-index: +1;
 }
 .screen {
-  background-size: 100%;
+  background-size: 100vmax;
   background-repeat: no-repeat;
   border-radius: 20px 20px 0px 0px;
-  border: solid 20px #ffffff;
+  border: solid 1.5vmax #ffffff;
   border-bottom: solid 10px #ffffff;
-  width: 100%;
-  height: 65%;
+  width: 38vmax;
+  height: 20vmax;
   background-color: #f1f1f1;
   display: flex;
   flex-direction: row;
