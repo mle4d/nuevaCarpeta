@@ -768,6 +768,7 @@
   .desk {
     transform: skewX(0deg);
     border-right: none;
+    width: 100%;
   }
   .mug {
     transform: skewX(0deg);
