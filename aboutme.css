@@ -189,7 +189,7 @@ legend {
   justify-content: space-evenly;
   align-self: flex-start;
   width: 60vmax;
-  margin-top: -.9vmax;
+  margin-top: 0vmax;
   position: fixed;
   top: 3%;
   font-size: 1.2vmax;
