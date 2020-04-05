@@ -73,11 +73,11 @@ legend {
   border-right: solid #ffffff 12px;
 }
 .aboutMe {
-  height: 40%;
+  height: 36%;
   width: 90%;
   font-family: 'lato';
   color: #ffffff;
-  font-size: 1.2vmax;
+  font-size: 1.3vmax;
   border: none;
   transform: skewX(12deg);
   background-color: #60cbf5;
