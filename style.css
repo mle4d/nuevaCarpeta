@@ -65,16 +65,16 @@ ul {
 nav {
   perspective: 600px;
   position: fixed;
-  bottom: 1%;
-  right: 5%;
+  bottom: .3vh;
+  right: 1vw;
   z-index: +1;
 }
 
 .quickinfo > li > a {
   color: #bfa4f0;
   text-decoration: none;
-  font-size: 140%;
-  padding: 10px 10px;
+  font-size: 2vmax;
+  padding: 10px 40px;
   display: inline-block;
   margin: 20px;
   border-radius: 5px;
