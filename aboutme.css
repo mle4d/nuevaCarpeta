@@ -175,4 +175,10 @@ legend {
   html {
     background-color: #65e9dc91;
   }
+  .codestorycontainer {
+    transform: skewX(0deg);
+  }
+  .codeStory {
+    transform: skewX(0deg);
+  }
 }
