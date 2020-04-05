@@ -751,6 +751,10 @@
   .tabLink {
     font-size: 2vw;
   }
+  #circle1 {
+    height:80%;
+    width: 130%;
+  }
   .LTbottom {
     height: 39%;
     width: 90%;
