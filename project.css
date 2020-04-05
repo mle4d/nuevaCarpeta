@@ -818,7 +818,7 @@
     border-radius: 6px;
     transform: skewX(6deg) skewY(-3deg) scaleY(.9) scaleX(1.1);
   }
-  /* #clock {
+  #clock {
     font-size: 30%;
     margin-top: 18%;
     text-align: center;
@@ -827,7 +827,7 @@
   #date {
     font-size: 6px;
     margin-top: -40%;
-  } */
+  }
   .underdesk {
     display: none;
   }
