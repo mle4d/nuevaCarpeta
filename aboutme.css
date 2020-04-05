@@ -183,9 +183,9 @@ legend {
     transform: skewX(0deg);
   }
   #mcs{
-    font-size: 2vw 2vh;
+    font-size: 1vw 1vh;
   }
   #btc {
-    width: 2vw 2vh;
+    width: 1vw 1vh;
   }
 }
