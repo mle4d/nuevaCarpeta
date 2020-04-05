@@ -188,7 +188,7 @@ legend {
   display: flex;
   justify-content: space-evenly;
   align-self: flex-start;
-  width: 60vmax;
+  width: 80vmax;
   margin-top: 0vmax;
   position: fixed;
   top: 3%;
