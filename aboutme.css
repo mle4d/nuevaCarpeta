@@ -176,3 +176,8 @@ legend {
 .phonenumber:hover {
   background-size: 85%;
 }
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  html {
+    background-color: #65e9dc91;
+  }
+}
