@@ -177,8 +177,15 @@ legend {
   }
   .codestorycontainer {
     transform: skewX(0deg);
+    width: 50%;
   }
   .codeStory {
     transform: skewX(0deg);
+  }
+  #mcs{
+    font-size: 2vw 2vh;
+  }
+  #btc {
+    width: 2vw 2vh;
   }
 }
