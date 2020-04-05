@@ -348,7 +348,7 @@
 }
 .LTscreen {
   height: 55%;
-  width: 78%;
+  width: 18vmax;
   border-radius: 10px 10px 10px 10px;
   border: 10px solid #ffffff;
   z-index: +1;
