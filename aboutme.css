@@ -1,5 +1,5 @@
 .container {
-  background-color: #65e9dc91;
+  background-color: #65e9dc65;
 }
 #aboutmetab {
   color: #2ebbadd5;
@@ -13,7 +13,7 @@ legend {
   letter-spacing: 9px;
   line-height: 45px;
   text-align: right;
-  font-size: 240%;
+  font-size: 200%;
   border-bottom: #fce3f8 dotted 5px;
 }
 .codestorycontainer {
@@ -25,7 +25,9 @@ legend {
   align-content: center;
   align-items: center;
   overflow: scroll;
-  border: solid #ffffff 12px;
+  border-left: solid #ffffff 12px;
+  border-right: solid #ffffff 12px;
+  z-index: -1;
 }
 .codeStory {
   align-self: center;
@@ -41,6 +43,8 @@ legend {
   border: none;
   transform: skewX(-12deg);
   overflow: visible;
+  background-color: #bfa4f0;
+  z-index: +1;
 }
 
 #avatar {
@@ -60,7 +64,8 @@ legend {
   flex-direction: column;
   justify-content: space-evenly;
   overflow: visible;
-  border: solid #ffffff 12px;
+  border-left: solid #ffffff 12px;
+  border-right: solid #ffffff 12px;
 }
 .aboutMe {
   font-family: 'lato';
