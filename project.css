@@ -804,12 +804,12 @@
     align-self: center;
     box-shadow: inset 1px 1px 4px rgba(0, 0, 0, 0.8);
   }
-  /* .powered {
+  .powered {
     display: none;
   }
   .stain {
    display: none;
-  } */
+  }
   .phone {
     border: solid #ffffff 3px;
     border-right: inset #ffffff 2px;
