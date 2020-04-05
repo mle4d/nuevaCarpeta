@@ -924,7 +924,7 @@
   
   .mugbody {
     height: 90%;
-    width: 90%;
+    width: 88%;
     border-top-left-radius: 125px 60px;
     border-top-right-radius: 125px 60px;
     border-bottom-left-radius: 125px 60px;
@@ -947,6 +947,7 @@
    display: none;
   }
   .phone {
+    height: 130%;
     border: solid #ffffff 3px;
     border-right: inset #ffffff 2px;
     border-bottom: ridge #ffffff 5px;
