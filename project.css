@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Reenie+Beanie&display=swap');
 .container {
   text-align: center;
-  width: 90vw;
-  height: 85vh;
+  width: 94vw;
+  height: 90vmin;
   position: fixed;
-  top: 8%;
-  left: 5%;
+  top: 5%;
+  left: 3%;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -500,7 +500,7 @@
   border: solid 1px #9a9a9ab6;
 }
 .desk {
-  width: 100%;
+  width: 97vw;
   height: 25%;
   background-color: #e6bfd4;
   box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.24);
@@ -655,10 +655,10 @@
   text-align: center;
 }
 .underdesk {
-  width: 71%;
+  width: 60vmax;
   height: 12%;
-  border-right: solid 30px #b6adb293;
-  border-left: solid 25px #b5adb1c4;
+  border-right: solid 3vmax #b6adb293;
+  border-left: solid 2vmax #b5adb1c4;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
