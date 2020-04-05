@@ -1,5 +1,5 @@
 .container {
-  background-color: #60cbf54a;
+  background-color: #d2f0fb;
 }
 #professionaltab {
   color: #60cbf5;
@@ -45,6 +45,6 @@
 }
 @media screen and (min-width: 320px) and (max-width: 767px) {
   html {
-    background-color: #60cbf54a;
+    background-color: #bfa4f04a;
   }
 }
