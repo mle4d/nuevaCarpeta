@@ -13,7 +13,7 @@ legend {
   letter-spacing: 9px;
   line-height: 45px;
   text-align: right;
-  font-size: 200%;
+  font-size: 2vw;
   border-bottom: #fce3f8 dotted 5px;
 }
 .codestorycontainer {
@@ -86,7 +86,7 @@ legend {
   width: 110%;
   border-bottom: #fce3f8 dashed 5px;
   text-align: center;
-  font-size: 150%;
+  font-size: 3vh;
   letter-spacing: 4px;
   line-height: 140%;
 }
@@ -186,6 +186,6 @@ legend {
     font-size: 1vw 1vh;
   }
   #btc {
-    width: 1vw 1vh;
+    font-size: 1vw 1vh;
   }
 }
