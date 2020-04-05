@@ -187,15 +187,16 @@
   transform: rotate(-10deg) translateY(35%);
   font-family: 'Reenie Beanie', cursive;
   color: #000000;
-  font-size: 1.2vw;
+  font-size: 100%;
   text-align: center;
   box-shadow: 1px 4px 7px rgba(0,0,0,.2);
+  overflow: hidden;
 }
 .stickyLink {
   transform: rotate(-10deg) translateY(35%);
   font-family: 'Reenie Beanie', cursive;
   color: #000000;
-  font-size: 2vw;
+  font-size: 150%;
   text-align: center;
   text-decoration: none;
 }
@@ -367,7 +368,7 @@
   border-left: solid 10px #fa9fe5;
   transform: translateX(200%) translateY(-80%);
   font-family: 'Reenie Beanie', cursive;
-  font-size: 1.3vw;
+  font-size: 100%;
   box-shadow: 1px 4px 7px rgba(0,0,0,.2);
   z-index: +1;
 }
@@ -375,7 +376,7 @@
   font-family: 'Reenie Beanie', cursive;
   color: #000000;
   border-radius: 0px;
-  font-size: 1.3vw;
+  font-size: 100%;
   z-index: +1;
   text-decoration: none;
 }
