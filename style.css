@@ -220,12 +220,12 @@ nav ul {
     top: 100%;
     left: 0;
   }
-  .nav {
+  /* .nav {
     margin-top: -56%;
     margin-left: 12%;
     z-index: +1;
     font-size: 80%;
-  }
+  } */
   nav {
     display: none;
   }
