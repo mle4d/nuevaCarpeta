@@ -184,6 +184,16 @@ legend {
   html {
     background-color: #65e9dc91;
   }
+  .nav {
+  display: flex;
+  justify-content: space-evenly;
+  align-self: flex-start;
+  width: 60vmax;
+  margin-top: -.9vmax;
+  position: fixed;
+  top: 2.5%;
+  font-size: 1.2vmax;
+}
   .codestorycontainer {
     transform: skewX(0deg);
     width: 50%;
