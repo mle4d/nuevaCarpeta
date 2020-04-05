@@ -38,7 +38,7 @@ legend {
   text-align: justify;
   font-family: 'lato';
   color: #ffffff;
-  font-size: 90%;
+  font-size: 1.1vw;
   border: none;
   transform: skewX(-8deg);
   overflow: visible;
@@ -58,15 +58,17 @@ legend {
   height:100%;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: space-around;
   overflow: visible;
   border-left: solid #ffffff 12px;
   border-right: solid #ffffff 12px;
 }
 .aboutMe {
+  height: 40%;
+  width: 90%;
   font-family: 'lato';
   color: #ffffff;
-  font-size: 100%;
+  font-size: 1.3vw;
   border: none;
   transform: skewX(12deg);
   background-color: #60cbf5;
