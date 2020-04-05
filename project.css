@@ -886,7 +886,7 @@
   }
   .tab {
     transform: translateX(150%) translateY(-80%);
-    font-size: 2.5vw;
+    font-size: 2vw;
   }
   .LTbottom {
     height: 39%;
