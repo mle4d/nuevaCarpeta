@@ -886,10 +886,10 @@
   }
   .tab {
     transform: translateX(150%) translateY(-80%);
-    font-size: 1.8vw;
+    font-size: 1.5vw;
   }
   .tabLink {
-    font-size: 1vw;
+    font-size: 1.8vw;
   }
   .LTbottom {
     height: 39%;
