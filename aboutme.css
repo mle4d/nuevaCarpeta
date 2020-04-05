@@ -191,6 +191,9 @@ legend {
   .codeStory {
     transform: skewX(0deg);
   }
+  .aboutMe {
+    height: 30%;
+  }
   #mcs{
     font-size: 1.5vmax;
     line-height: 20px;
