@@ -726,10 +726,10 @@
   .sticky {
     width: 12%;
     height: 140%;
-    font-size: 100%;
+    font-size: 1.8vw;
   }
   .stickyLink {
-    font-size: 100%;
+    font-size: 3vw;
   }
   .tree {
     transform: translateY(-40%) translateX(-44%);
@@ -746,10 +746,10 @@
   }
   .tab {
     transform: translateX(150%) translateY(-80%);
-    font-size: 100%;
+    font-size: 2.5vw;
   }
   .tabLink {
-    font-size: 100%;
+    font-size: 2vw;
   }
   .LTbottom {
     height: 39%;
@@ -821,7 +821,7 @@
   }
   #date {
     font-size: 6px;
-    margin-top: -30%;
+    margin-top: -40%;
   }
   .underdesk {
     display: none;
@@ -886,6 +886,7 @@
   }
   .tab {
     transform: translateX(150%) translateY(-80%);
+    font-size: 2.5vw;
   }
   .LTbottom {
     height: 39%;
@@ -957,7 +958,7 @@
   }
   #date {
     font-size: 6px;
-    margin-top: -30%;
+    margin-top: -40%;
   }
   .underdesk {
     display: none;
