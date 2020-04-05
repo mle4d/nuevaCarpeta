@@ -192,11 +192,11 @@ legend {
     transform: skewX(0deg);
   }
   #mcs{
-    font-size: 1vmax;
+    font-size: 1.5vmax;
   }
   #btc {
-  font-size: 2vmax;
+  font-size: 1.5vmax;
   letter-spacing: 6px;
-  /* line-height: 45px; */
+  line-height: 10px;
   }
 }
