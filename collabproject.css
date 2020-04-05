@@ -15,7 +15,7 @@
   justify-content: center;
   flex-wrap: wrap;
   overflow: visible;
-  transform: rotate(-4deg) translateY(3%);
+  transform: rotate(-4deg) translateY(5%);
   align-self: flex-end;
 }
 .atbsticker {
