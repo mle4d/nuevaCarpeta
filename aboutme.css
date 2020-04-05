@@ -52,6 +52,14 @@ legend {
   margin-right: 3%;
   border: solid 10px #65e9dc;
 }
+#avatar2 {
+  width: 40%;
+  border-radius: 10%;
+  margin-right: -12%;
+  margin-left: 3%;
+  margin-top: 1%;
+  border: solid 10px #60cbf5;
+}
 .aboutmecontainer {
   background-color: #fce3f8;
   transform: skewX(-12deg);
