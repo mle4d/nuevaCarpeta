@@ -290,7 +290,7 @@
   height: 20%;
   border-top-left-radius: 50% 100%;
   border-top-right-radius: 50% 100%;
-  transform: translateX(-25%);
+  transform: translateX(-30%);
   align-self: flex-end;
   display: flex;
   flex-direction: column;
@@ -304,14 +304,13 @@
   height: 500%;
   background-color: #bfa4f0;
   transform: translateY(60%);
-  z-index: +1;
+  z-index: -1;
 }
 .tree {
-  width:15%;
+  width:20%;
   height: 50%;
   border-radius: 70%;
   background-color: #fa9fe59f;
-  border: dotted #fa9fe59f 4px; 
   transform: translateY(-40%) translateX(80%);
   align-self: flex-start;
   display: flex;
