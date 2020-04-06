@@ -679,9 +679,9 @@
     height: 50vh;
     left: 1%;
   }
-  .bulletin h3 {
+  /* .bulletin h3 {
     font-size: 50%;
-  }
+  } */
   .desktop {
     width: 40%;
     height: 110%;
@@ -699,7 +699,7 @@
   .screen p {
     font-size: 1em;
   }
-  #M {
+  /* #M {
     font-size: 2.1em;
   }
   #l {
@@ -707,7 +707,7 @@
   }
   #e {
     font-size: 2em;
-  }
+  } */
   .screenbottom {
     width: 99%;
     height: 8%;
@@ -736,11 +736,11 @@
   }
   .tab {
     transform: translateX(150%) translateY(-80%);
-    font-size: 2.5vw;
+    /* font-size: 2.5vw; */
   }
-  .tabLink {
+  /* .tabLink {
     font-size: 2vw;
-  }
+  } */
   #circle1 {
     height:80%;
     width: 130%;
@@ -808,7 +808,7 @@
     border-radius: 6px;
     transform: skewX(6deg) skewY(-3deg) scaleY(.9) scaleX(1.1);
   }
-  #clock {
+  /* #clock {
     font-size: 30%;
     margin-top: 18%;
     text-align: center;
@@ -817,7 +817,7 @@
   #date {
     font-size: 6px;
     margin-top: -40%;
-  }
+  } */
   .underdesk {
     display: none;
   }
@@ -965,5 +965,11 @@
   }
   .underdesk {
     display: none;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .poster {
+    width: 60%;
+    height: 30%;
   }
 }
