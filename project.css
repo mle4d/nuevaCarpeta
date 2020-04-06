@@ -722,7 +722,7 @@
     font-size: 3vw;
   }
   .trunk {
-    transform: translateY(60%) translateX(200%);
+    transform: translateY(60%) translateX(400%);
   }
   #info {
     font-size: 2vw;
@@ -871,7 +871,7 @@
     text-decoration: none;
   }
   .trunk {
-    transform: translateY(60%) translateX(200%);
+    transform: translateY(60%) translateX(400%);
   }
   .LTscreen {
     height: 55%;
