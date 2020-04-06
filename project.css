@@ -721,9 +721,9 @@
   .stickyLink {
     font-size: 3vw;
   }
-  /* .tree {
-    transform: translateY(-40%) translateX(-44%);
-  } */
+  .trunk {
+    transform: translateY(60%) translateX(20%);
+  }
   #info {
     font-size: 2vw;
     height: 58%;
@@ -870,9 +870,9 @@
     text-align: center;
     text-decoration: none;
   }
-  /* .tree {
-    transform: translateY(-40%) translateX(-44%);
-  } */
+  .trunk {
+    transform: translateY(60%) translateX(20%);
+  }
   .LTscreen {
     height: 55%;
     width: 78%;
