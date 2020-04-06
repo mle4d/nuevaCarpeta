@@ -65,7 +65,7 @@ ul {
 nav {
   perspective: 600px;
   position: fixed;
-  bottom: .3vh;
+  bottom: 1vh;
   right: 1vw;
   z-index: +1;
 }
