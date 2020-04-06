@@ -967,7 +967,7 @@
     display: none;
   }
 }
-@media screen and (max-width: 320px) and (max-width: 570px) and (orientation: portrait) {
+@media screen and (max-width: 320px) and (max-height: 570px) and (orientation: portrait) {
   .bulletin h3 {
     font-size: 1vh;
   }
@@ -1009,7 +1009,7 @@
     height: 90%;
   }
 }
-@media screen and (max-width: 320px) and (max-width: 570px) and (orientation: landscape) {
+@media screen and (max-width: 320px) and (max-height: 570px) and (orientation: landscape) {
   .bulletin h3 {
     font-size: 1vh;
   }
