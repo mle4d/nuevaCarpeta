@@ -1053,7 +1053,7 @@
 }
 @media screen and (min-width: 1024px) and (min-height: 768px) {
   .container {
-    height: 80vmin;
+    height: 70vmin;
     position: fixed;
     top: 15%;
   }
