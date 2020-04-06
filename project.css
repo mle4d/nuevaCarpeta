@@ -301,9 +301,9 @@
 }
 .trunk {
   width: 10%;
-  height: 500%;
+  height: 120%;
   background-color: #bfa4f0;
-  transform: translateY(60%);
+  transform: translateY(90%);
   z-index: -1;
 }
 .tree {
@@ -311,7 +311,7 @@
   height: 50%;
   border-radius: 70%;
   background-color: #fa9fe59f;
-  transform: translateY(-40%) translateX(80%);
+  transform: translateY(-40%) translateX(60%);
   align-self: flex-start;
   display: flex;
   flex-direction: column;
