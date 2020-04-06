@@ -967,7 +967,7 @@
     display: none;
   }
 }
-@media screen and (max-width: 320px) and (max-width: 570px) {
+@media screen and (max-width: 320px) and (max-width: 570px) and (orientation: portrait) {
   .bulletin h3 {
     font-size: 1vh;
   }
@@ -987,19 +987,57 @@
     font-size: 6px;
     margin-top: 18%;
     text-align: center;
-    transform: translateY(0%) translateX(2%);
+    transform: translateY(10%) translateX(2%);
   }
   #date {
-    font-size: 5px;
+    font-size: 4px;
     margin-top: -40%;
-    transform: translateY(-10%) translateX(2%);
+    transform: translateY(-20%) translateX(2%);
+  }
+  .tab {
+    transform: translateX(150%) translateY(-80%);
+    font-size: 1.6vw;
+  }
+  .sticky {
+    font-size: 1.2vw;
+  }
+  .stickyLink {
+    font-size: 1.3vw;
+  } 
+}
+@media screen and (max-width: 320px) and (max-width: 570px) and (orientation: landscape) {
+  .bulletin h3 {
+    font-size: 1vh;
+  }
+  .poster {
+    width: 60%;
+    height: 30%;
+  }
+  .handle {
+    height: 20%;
+    width: 12%;
+  }
+  .mugbody {
+    height: 90%;
+    width: 70%;
+  }
+  #clock {
+    font-size: 6px;
+    margin-top: 18%;
+    text-align: center;
+    transform: translateY(10%) translateX(2%);
+  }
+  #date {
+    font-size: 4px;
+    margin-top: -40%;
+    transform: translateY(-20%) translateX(2%);
   }
   .tab {
     transform: translateX(150%) translateY(-80%);
     font-size: 1.5vw;
   }
   .sticky {
-    font-size: 1.2vw;
+    font-size: 1vw;
   }
   .stickyLink {
     font-size: 1.3vw;
