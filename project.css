@@ -1066,4 +1066,7 @@
     transform: translateX(180%) translateY(-80%);
     font-size: 1.6vw;
   }
+  .underdesk {
+    display: none;
+  }
 }
