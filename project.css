@@ -257,7 +257,7 @@
   border-radius: 70%;
   z-index: +1;
   transform: translateX(+10%) translateY(15%);
-  font-size: 2.5em;
+  font-size: 4.5vmax;
   font-family: 'Reenie Beanie', cursive;
   color: #ffffff;
   text-align: center;
@@ -275,7 +275,7 @@
   height: 40%;
   border-top-left-radius: 40% 90%;
   border-top-right-radius: 70% 110%;
-  transform: translateX(15%);
+  transform: translateX(25%);
   align-self: flex-end;
   display: flex;
   flex-direction: row;
@@ -286,11 +286,11 @@
 
 .smallHill {
   background-color: #61f3e454;
-  width: 48%;
+  width: 30%;
   height: 20%;
   border-top-left-radius: 50% 100%;
   border-top-right-radius: 50% 100%;
-  transform: translateX(-15%);
+  transform: translateX(-25%);
   align-self: flex-end;
   display: flex;
   flex-direction: column;
@@ -300,34 +300,25 @@
   overflow: visible;
 }
 .trunk {
-  width: 2%;
-  height: 60%;
+  width: 10%;
+  height: 500%;
   background-color: #bfa4f0;
-  transform: translateX(850%);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-content: center;
-  flex-wrap: wrap;
+  transform: translateY(60%);
   z-index: +1;
-  overflow: visible;
 }
 .tree {
-  width: 1200%;
-  height: 90%;
+  width:15%;
+  height: 50%;
   border-radius: 70%;
   background-color: #fa9fe59f;
-  color: #e4a1e8;
-  font-size: 2.5em;
-  font-family: 'Reenie Beanie', cursive;
-  transform: translateY(-40%) translateX(0%);
+  border: dotted #fa9fe59f 4px; 
+  transform: translateY(-40%) translateX(80%);
   align-self: flex-start;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-content: center;
   flex-wrap: wrap;
-  z-index: +1;
   overflow: visible;
 }
 #info {
