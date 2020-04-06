@@ -1004,6 +1004,10 @@
   .stickyLink {
     font-size: 1.3vw;
   } 
+  .circles {
+    width: 50%;
+    height: 90%;
+  }
 }
 @media screen and (max-width: 320px) and (max-width: 570px) and (orientation: landscape) {
   .bulletin h3 {
@@ -1042,4 +1046,8 @@
   .stickyLink {
     font-size: 1.3vw;
   } 
+  .circles {
+    width: 50%;
+    height: 90%;
+  }
 }
