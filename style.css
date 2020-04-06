@@ -232,7 +232,7 @@ nav ul {
     display: none;
   }
 }
-@media screen and (max-width: 320px) and (max-width: 570px) and (orientation: portrait) {
+@media screen and (max-width: 320px) and (max-height: 570px) and (orientation: portrait) {
   .nav {
     margin-top: 3%;
     margin-left: 10%;
@@ -240,7 +240,7 @@ nav ul {
     font-size: 50%;
   }
 }
-@media screen and (max-width: 320px) and (max-width: 570px) and (orientation: landscape) {
+@media screen and (max-width: 320px) and (max-height: 570px) and (orientation: landscape) {
   .nav {
     margin-top: 3%;
     margin-left: 10%;
@@ -248,7 +248,7 @@ nav ul {
     font-size: 40%;
   }
 }
-@media screen and (max-width: 1025px) and (max-height: 770px) {
+@media screen and (min-width: 1024px) and (min-height: 768px) {
   .nav {
     margin-top: 4%;
     margin-left: 10%;
