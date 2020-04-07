@@ -823,7 +823,7 @@
     display: none;
   }
 }
-@media screen and (min-width: 320px) and (max-width: 767px) and (orientation: landscape) {
+@media screen and (min-width: 320px) and (max-width: 896px) and (orientation: landscape) {
   .bulletin h3 {
     font-size: 50%;
   }
