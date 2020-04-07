@@ -18,7 +18,7 @@ document.querySelector('.nintiesPC').addEventListener('click', function() {
   document.querySelector('.poster').style.background = 'url(assets/90sposter.png) #fccbeb center no-repeat';
   document.querySelector('.poster').style.backgroundSize = '100%';
   document.querySelector('#info').style.color = '#ffffff';
-  document.querySelector('#info').innerHTML = '90s flashbak is a nostaligic site using customized images & mouse-follow for a different user perspective. This site using speech recognition & speech synthesis for the user to interact with.';
+  document.querySelector('#info').innerHTML = '90s flashbak is a nostaligic site using customized images & mouse-follow for a different user perspective. This site uses speech recognition & speech synthesis for the user to interact with.';
   document.querySelector('#art').style.display = 'none';
   document.querySelector('.screen').style.background = 'url(assets/90sfbgif.gif) #dedfe4 center no-repeat';
   document.querySelector('.screen').style.backgroundSize = 'cover';
