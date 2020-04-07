@@ -84,9 +84,10 @@
   flex-direction: column;
   align-items: center;
   flex-wrap: wrap;
-  width: 40%;
-  height: 120%;
-  margin-top: 1%;
+  width: 40vmax;
+  height: 30vmax;
+  position: relative;
+  margin-top: 1.5vmin;
   z-index: +1;
 }
 .screen {
@@ -156,7 +157,7 @@
   animation: HME ease-in-out 20s infinite;
 }
 .screenbottom {
-  width: 109%;
+  width: 102%;
   height: 8%;
   border-radius: 0px 0px 20px 20px;
   background-color: #aaaaaa;
@@ -1053,14 +1054,14 @@
 }
 @media screen and (min-width: 1024px) and (min-height: 768px) {
   .container {
-    height: 70vmin;
+    height: 50vmax;
     position: fixed;
     top: 15%;
   }
   .desktop {
     width: 40%;
     height: 110%;
-    margin-top: 22vmin;
+    margin-top: 10vmin;
   }
   .tab {
     transform: translateX(180%) translateY(-80%);
@@ -1070,3 +1071,11 @@
     display: none;
   }
 }
+@media screen and (min-width:  2160px) and (min-height: 1620px) {
+  .container {
+    height: 50vmax;
+    position: fixed;
+    top: 15%;
+  }
+}
+
