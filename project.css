@@ -1096,7 +1096,7 @@
     margin-top: 9.5vmin;
   }
 }
-@media screen and (min-width:  625px) and (max-width: 1010px) and (orientation: landscape){
+@media screen and (min-height:  625px) and (max-width: 1010px) and (orientation: landscape){
 .trunk {
   transform: translateX(-20%) translateY(90%);
 }
