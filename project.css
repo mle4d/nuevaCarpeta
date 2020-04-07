@@ -711,9 +711,11 @@
     font-size: 2em;
   }
   .screenbottom {
-    width: 99%;
+    width: 95%;
     height: 8%;
     border-radius: 0px 0px 10px 10px;
+    border-left: solid 5px #aaaaaa;
+    border-right: solid 5px #aaaaaa;
   }
   .sticky {
     width: 12%;
@@ -833,7 +835,7 @@
     height: 110%;
     margin-top: 10%;
   }
-  /* .screen {
+  .screen {
     background-size: 100%;
     border-radius: 10px 10px 0px 0px;
     border: solid 5px #ffffff;
@@ -841,7 +843,7 @@
     width: 95%;
     height: 55%;
     background-color: #f1f1f1;
-  } */
+  }
   .screen p {
     font-size: 1em;
   }
@@ -854,13 +856,13 @@
   #e {
     font-size: 2em;
   }
-  /* .screenbottom {
+  .screenbottom {
     width: 95%;
     height: 8%;
     border-left: solid 5px #aaaaaa;
     border-right: solid 5px #aaaaaa;
     border-radius: 0px 0px 10px 10px;
-  } */
+  }
   .sticky {
     width: 12%;
     height: 140%;
