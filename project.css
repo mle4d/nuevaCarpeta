@@ -157,9 +157,11 @@
   animation: HME ease-in-out 20s infinite;
 }
 .screenbottom {
-  width: 102%;
+  width: 38vmax;
   height: 8%;
   border-radius: 0px 0px 20px 20px;
+  border-left: solid 1.5vmax #aaaaaa;
+  border-right: solid 1.5vmax #aaaaaa;
   background-color: #aaaaaa;
   display: flex;
   flex-wrap: wrap;
@@ -181,14 +183,14 @@
 }
 .sticky {
   width: 12%;
-  height: 180%;
+  /* height: 180%; */
   background-color: #bdf7f1;
   border-radius: 0px;
   align-self: flex-end;
   transform: rotate(-10deg) translateY(35%);
   font-family: 'Reenie Beanie', cursive;
   color: #000000;
-  font-size: 1.4vw;
+  font-size: 1.3vw;
   text-align: center;
   box-shadow: 1px 4px 7px rgba(0,0,0,.2);
   overflow: hidden;
@@ -354,10 +356,9 @@
 }
 .tab {
   height: 14%;
-  width: 28%;
   background-color: #e6e6e6;
   border-left: solid 10px #fa9fe5;
-  transform: translateX(200%) translateY(-80%);
+  transform: translateX(170%) translateY(-80%);
   font-family: 'Reenie Beanie', cursive;
   font-size: 1.5vw;
   box-shadow: 1px 4px 7px rgba(0,0,0,.2);
@@ -672,7 +673,7 @@
   background-size: 24px 23px;
   background-position: top center;
 }
-@media screen and (min-width: 320px) and (max-width: 767px) and (orientation: portrait) {
+@media screen and (min-width: 320px) and (max-width: 1023px) and (orientation: portrait) {
   .container {
     margin-top: 7%;
     box-shadow: 0px 0px 0px rgba(0, 0, 0, 0), 0px 0px 0px rgba(0, 0, 0, 0);
@@ -823,7 +824,7 @@
     display: none;
   }
 }
-@media screen and (min-width: 320px) and (max-width: 896px) and (orientation: landscape) {
+@media screen and (min-width: 320px) and (max-width: 1023px) and (orientation: landscape) {
   .bulletin h3 {
     font-size: 50%;
   }
@@ -832,7 +833,7 @@
     height: 110%;
     margin-top: 10%;
   }
-  .screen {
+  /* .screen {
     background-size: 100%;
     border-radius: 10px 10px 0px 0px;
     border: solid 5px #ffffff;
@@ -840,7 +841,7 @@
     width: 95%;
     height: 55%;
     background-color: #f1f1f1;
-  }
+  } */
   .screen p {
     font-size: 1em;
   }
@@ -853,11 +854,13 @@
   #e {
     font-size: 2em;
   }
-  .screenbottom {
-    width: 99%;
+  /* .screenbottom {
+    width: 95%;
     height: 8%;
+    border-left: solid 5px #aaaaaa;
+    border-right: solid 5px #aaaaaa;
     border-radius: 0px 0px 10px 10px;
-  }
+  } */
   .sticky {
     width: 12%;
     height: 140%;
@@ -1052,7 +1055,7 @@
     height: 90%;
   }
 }
-@media screen and (min-width: 1024px) and (min-height: 768px) {
+@media screen and (max-width: 1024px) and (min-height:600px){
   .container {
     height: 50vmax;
     position: fixed;
