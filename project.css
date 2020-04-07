@@ -304,7 +304,7 @@
 }
 .trunk {
   width: 10%;
-  height: 80%;
+  height: 100%;
   background-color: #bfa4f0;
   transform: translateY(90%);
   z-index: -1;
