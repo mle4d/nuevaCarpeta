@@ -183,7 +183,6 @@
 }
 .sticky {
   width: 12%;
-  /* height: 180%; */
   background-color: #bdf7f1;
   border-radius: 0px;
   align-self: flex-end;
@@ -1076,11 +1075,38 @@
     display: none;
   }
 }
-@media screen and (min-width:  2160px) and (min-height: 1620px) {
+@media only screen and (min-width:  1000px) and (max-width: 1260px) {
   .container {
-    height: 50vmax;
+    height: 47vmax;
     position: fixed;
-    top: 15%;
+    top: 6%;
+  }
+  .desktop {
+    margin-top: 8vmin;
   }
 }
-
+@media only screen and (min-width:  640px) and (max-width: 1000px) {
+  .container {
+    height: 48vmax;
+    position: fixed;
+    top: 6%;
+  }
+  .desktop {
+    margin-top: 8vmin;
+  }
+}
+@media only screen and (min-width:  340px) and (max-width: 1010px) {
+.trunk {
+  transform: translateX(-20%) translateY(90%);
+}
+}
+@media only screen and (min-width:  1920px) {
+  .container {
+    height: 52vmax;
+    position: fixed;
+    top: 6%;
+  }
+  .desktop {
+    margin-top: 8vmin;
+  }
+}
