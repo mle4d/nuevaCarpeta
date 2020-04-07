@@ -1095,7 +1095,7 @@
     margin-top: 8vmin;
   }
 }
-@media only screen and (min-width:  340px) and (max-width: 1010px) {
+@media only screen and (min-width:  840px) and (max-width: 1010px) {
 .trunk {
   transform: translateX(-20%) translateY(90%);
 }
