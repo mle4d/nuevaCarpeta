@@ -251,6 +251,7 @@
   align-items: center;
   flex-wrap: wrap;
   z-index: +1;
+  overflow: hidden;
 }
 .bigCloud {
   width: 60%;
