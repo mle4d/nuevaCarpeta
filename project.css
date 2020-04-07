@@ -1111,3 +1111,14 @@
     margin-top: 8vmin;
   }
 }
+@media only screen and (min-width:  1280px) and (max-width: 1440px) {
+  .container {
+    height: 52vmax;
+    position: fixed;
+    top: 6%;
+  }
+  .desktop {
+    margin-top: 8vmin;
+  }
+}
+
