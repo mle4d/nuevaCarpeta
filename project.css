@@ -877,7 +877,7 @@
     text-decoration: none;
   }
   .trunk {
-    transform: translateY(60%) translateX(400%);
+    transform: translateY(60%);
   }
   .LTscreen {
     height: 55%;
@@ -1098,7 +1098,7 @@
 }
 @media screen and (min-height:  625px) and (max-width: 1010px) and (orientation: landscape){
 .trunk {
-  transform: translateX(-20%) translateY(90%);
+  transform: translateY(90%);
 }
 }
 
