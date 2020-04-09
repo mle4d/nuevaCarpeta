@@ -302,14 +302,12 @@
   z-index: -1;
   overflow: visible;
 }
-.trunk {
-  width: 10%;
-  height: 100%;
-  background-color: #bfa4f0;
-  transform: translateY(90%);
-  z-index: -1;
-}
+
 .tree {
+  color: #bfa4f0;
+  font-size: 17vmin;
+  text-align: center;
+  line-height: 17vmin;
   width:20%;
   height: 50%;
   border-radius: 70%;
