@@ -314,7 +314,7 @@
   height: 50%;
   border-radius: 70%;
   background-color: #fa9fe59f;
-  transform: translateY(-40%) translateX(60%);
+  transform: translateY(-40%);
   align-self: flex-start;
   display: flex;
   flex-direction: column;
@@ -726,7 +726,7 @@
     font-size: 3vw;
   }
   .trunk {
-    transform: translateY(60%) translateX(400%);
+    transform: translateY(60%);
   }
   #info {
     font-size: 2vw;
