@@ -726,7 +726,7 @@
     font-size: 3vw;
   }
   .trunk {
-    transform: translateY(60%);
+    display: none;
   }
   #info {
     font-size: 2vw;
@@ -877,7 +877,7 @@
     text-decoration: none;
   }
   .trunk {
-    transform: translateY(60%);
+    display: none;
   }
   .LTscreen {
     height: 55%;
@@ -1098,7 +1098,7 @@
 }
 @media screen and (min-height:  625px) and (max-width: 1010px) and (orientation: landscape){
 .trunk {
-  transform: translateY(90%);
+  display: none;
 }
 }
 
