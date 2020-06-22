@@ -61,8 +61,8 @@ document.querySelector('.pdaaFlyer').addEventListener('click', function() {
 document.querySelector('.WWcard').addEventListener('click', function() {
   document.querySelector('.poster').style.background = 'url(assets/wewhaleposter.png) bottom #b5e8fd no-repeat';
   document.querySelector('.poster').style.backgroundSize = '100%';
-  document.querySelector('#info').style.color = 'white';
-  document.querySelector('#info').innerHTML = '';
+  document.querySelector('#info').style.color = '#2598f5';
+  document.querySelector('#info').innerHTML = 'WeWhale is an example of simple yet fun business site, utilizing slide-in on scroll & custom images.';
   document.querySelector('#art').style.display = 'none';
   document.querySelector('.phone').style.background = 'url(assets/wewhalemobile.PNG) center #ffffff no-repeat';
   document.querySelector('.phone').style.backgroundSize = '100%';
