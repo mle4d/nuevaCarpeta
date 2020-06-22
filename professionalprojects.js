@@ -59,7 +59,7 @@ document.querySelector('.pdaaFlyer').addEventListener('click', function() {
   window.body
 });
 document.querySelector('.WWcard').addEventListener('click', function() {
-  document.querySelector('.poster').style.background = 'url(assets/wewhaleposter.png) center #ffffff no-repeat';
+  document.querySelector('.poster').style.background = 'url(assets/wewhaleposter.png) bottom #b5e8fd no-repeat';
   document.querySelector('.poster').style.backgroundSize = '100%';
   document.querySelector('#info').style.color = 'white';
   document.querySelector('#info').innerHTML = '';
