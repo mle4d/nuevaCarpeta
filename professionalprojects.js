@@ -58,3 +58,23 @@ document.querySelector('.pdaaFlyer').addEventListener('click', function() {
   document.querySelector('.tab').innerHTML = '<a class="tabLink" href="https://github.com/mle4d/pdaa" target="_blank">See Code</a>';
   window.body
 });
+document.querySelector('.WWcard').addEventListener('click', function() {
+  document.querySelector('.poster').style.background = 'url(assets/wewhaleposter.png) center #ffffff no-repeat';
+  document.querySelector('.poster').style.backgroundSize = '100%';
+  document.querySelector('#info').style.color = 'white';
+  document.querySelector('#info').innerHTML = '';
+  document.querySelector('#art').style.display = 'none';
+  document.querySelector('.phone').style.background = 'url(assets/wewhalemobile.PNG) center #ffffff no-repeat';
+  document.querySelector('.phone').style.backgroundSize = '100%';
+  document.querySelector('#clock').style.display = 'none';
+  document.querySelector('#date').style.display = 'none';
+  document.querySelector('.screen').style.background = 'url(assets/wewhaledemo.gif) #ffffff center no-repeat';
+  document.querySelector('.screen').style.backgroundSize = 'cover';
+  document.querySelector('.dtss').style.display = 'none';
+  document.querySelector('.sticky').innerHTML = '<a class="stickyLink" href="https://wewhale.netlify.app/" target="_blank">Visit Site</a>';
+  document.querySelector('.LTscreen').style.background = 'url(assets/wewhalerepo.gif) #ffffff center no-repeat';
+  document.querySelector('.LTscreen').style.backgroundSize = 'cover';
+  document.querySelector('.circles').style.display = 'none';
+  document.querySelector('.tab').innerHTML = '<a class="tabLink" href="https://github.com/mle4d/wewhale" target="_blank">See Code</a>';
+  window.body
+});
