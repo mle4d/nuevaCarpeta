@@ -1,8 +1,8 @@
 .container {
-  background-color: #a5f2ec;
+  background-color: #65e9dc;
 }
 #aboutmetab {
-  color: #2ebbadd5;
+  color: #fa9fe5;
 }
 
 legend {
@@ -103,7 +103,7 @@ legend {
   height: 40%;
   width: 100%;
   background-color: #ffffff;
-  border: double 12px #fa9fe5;
+  border: double 12px #60cbf5;
   border-bottom-left-radius: 20px;
   border-top-right-radius: 20px;
   transform: skewX(12deg);
