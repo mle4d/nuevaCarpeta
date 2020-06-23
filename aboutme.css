@@ -1,5 +1,5 @@
 .container {
-  background-color: #65e9dc;
+  background-color: #fce3f8;
 }
 #aboutmetab {
   color: #fa9fe5;
@@ -61,7 +61,7 @@ legend {
   border: solid 10px #60cbf5;
 }
 .aboutmecontainer {
-  background-color: #fce3f8;
+  background-color: #65e9dc;
   transform: skewX(-12deg);
   width: 30%;
   height:100%;
