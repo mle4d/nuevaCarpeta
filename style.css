@@ -57,11 +57,17 @@ ul {
 #collabtab:hover {
   color: #bfa4f0;
 }
-#aboutmetab {
+#kidstab {
   background-color: #65e9dc91;
 }
-#aboutmetab:hover {
+#kidstab:hover {
   color:  #2ebbadd5;
+}
+#aboutmetab {
+  background-color: #fa9fe54a;
+}
+#aboutmetab:hover {
+  color: #fa9fe5;
 }
 nav {
   perspective: 600px;
