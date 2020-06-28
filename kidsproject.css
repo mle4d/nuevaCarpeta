@@ -17,6 +17,10 @@
   overflow: visible;
   transform: rotate(-10deg);
 }
+.sssPC #pin {
+  margin-top: 10%;
+  margin-left: -8%;
+}
 
 .legoPC {
   width: 45%;
