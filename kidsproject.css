@@ -4,3 +4,43 @@
 #kidstab {
   color: #2ebbadd5;
 }
+.sssPC {
+  width: 50%;
+  height: 34%;
+  background-image: url(assets/SSSSticker.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  overflow: visible;
+  transform: rotate(-10deg);
+}
+
+.legoPC {
+  width: 45%;
+  height: 30%;
+  background-image: url(assets/legoSticker.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  overflow: visible;
+  transform: rotate(5deg);
+}
+.timerPC {
+  width: 35%;
+  height: 43%;
+  background-image: url(assets/timerSticker.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  overflow: visible;
+  transform: rotate(-5deg);
+}
