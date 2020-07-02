@@ -1,7 +1,7 @@
 document.querySelector('.sssPC').addEventListener('click', function() {
-  document.querySelector('.poster').style.background = 'url(assets/sssposter.png) bottom no-repeat #f23c26';
+  document.querySelector('.poster').style.background = 'url(assets/sssposter.png) bottom no-repeat #1b729f';
   document.querySelector('.poster').style.backgroundSize = '100%';
-  document.querySelector('#info').style.color = '#000000';
+  document.querySelector('#info').style.color = '#f23c26';
   document.querySelector('#info').innerHTML = 'Sonder\'s Superhero Search was my son\'s idea! The game features customized images & CSS/Javascript magic to create six rounds of superhero searching fun!';
   document.querySelector('#art').style.display = 'none';
   document.querySelector('.phone').style.background = 'url(assets/.jpg) center no-repeat #ffffff';
