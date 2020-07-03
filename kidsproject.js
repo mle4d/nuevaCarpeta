@@ -31,11 +31,11 @@ document.querySelector('.legoPC').addEventListener('click', function() {
   document.querySelector('.screen').style.background = 'url(assets/.gif) #dedfe4 center no-repeat';
   document.querySelector('.screen').style.backgroundSize = 'cover';
   document.querySelector('.dtss').style.display = 'none';
-  document.querySelector('.sticky').innerHTML = '<a class="stickyLink" href="https://sonderssuperherosearch.netlify.app/" target="_blank">Visit Site</a>';
+  document.querySelector('.sticky').innerHTML = '<a class="stickyLink" href="https://whack-a-lego.netlify.app/" target="_blank">Visit Site</a>';
   document.querySelector('.LTscreen').style.background = 'url(assets/.gif) #24272c center no-repeat';
   document.querySelector('.LTscreen').style.backgroundSize = 'cover';
   document.querySelector('.circles').style.display = 'none';
-  document.querySelector('.tab').innerHTML = '<a class="tabLink" href="https://github.com/mle4d/SuperheroSearch" target="_blank">See Code</a>';
+  document.querySelector('.tab').innerHTML = '<a class="tabLink" href="https://github.com/mle4d/js3030" target="_blank">See Code</a>';
   window.body
 });
 document.querySelector('.timerPC').addEventListener('click', function() {
