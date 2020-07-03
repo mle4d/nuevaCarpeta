@@ -39,9 +39,9 @@ document.querySelector('.legoPC').addEventListener('click', function() {
   window.body
 });
 document.querySelector('.timerPC').addEventListener('click', function() {
-  document.querySelector('.poster').style.background = 'url(assets/.png) center no-repeat #ffffff';
-  document.querySelector('.poster').style.backgroundSize = '110%';
-  document.querySelector('#info').style.color = '';
+  document.querySelector('.poster').style.background = 'url(assets/toddlertimerposter.png) center no-repeat #63d5ef';
+  document.querySelector('.poster').style.backgroundSize = '100%';
+  document.querySelector('#info').style.color = '#3a97d4';
   document.querySelector('#info').innerHTML = 'Todder Timer was made during the 2020 pandemic when my son & I were home all day, every day. Toddler timer helped manage simple chores & made my son excited to use it.';
   document.querySelector('#art').style.display = 'none';
   document.querySelector('.phone').style.background = 'url(assets/.jpg) center no-repeat #ffffff';
