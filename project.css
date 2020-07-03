@@ -327,8 +327,9 @@
   line-height: 140%;
   text-align: center;
   overflow: scroll;
-  height: 55%;
+  height: 62%;
   align-self: flex-end;
+  padding-top: 15%;
 }
 .laptop {
   width: 80%;
