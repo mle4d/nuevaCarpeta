@@ -1,5 +1,5 @@
 .container {
-  background-color: #fce3f8;
+  background-color: #fee3f6;
 }
 #aboutmetab {
   color: #fa9fe5;
@@ -181,8 +181,10 @@ legend {
   background-size: 85%;
 }
 @media screen and (min-width: 320px) and (max-width: 767px) {
-  html {
-    background-color: #a5f2ec;
+  @media screen and (min-width: 320px) and (max-width: 767px) {
+    html {
+      background-color: #fee3f6;
+    }
   }
 
   .codestorycontainer {
