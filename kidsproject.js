@@ -8,7 +8,7 @@ document.querySelector('.sssPC').addEventListener('click', function() {
   document.querySelector('.phone').style.backgroundSize = '100%';
   document.querySelector('#clock').style.display = 'none';
   document.querySelector('#date').style.display = 'none';
-  document.querySelector('.screen').style.background = 'url(assets/.gif) #dedfe4 center no-repeat';
+  document.querySelector('.screen').style.background = 'url(assets/sssdemo.gif) #dedfe4 center no-repeat';
   document.querySelector('.screen').style.backgroundSize = 'cover';
   document.querySelector('.dtss').style.display = 'none';
   document.querySelector('.sticky').innerHTML = '<a class="stickyLink" href="https://sonderssuperherosearch.netlify.app/" target="_blank">Visit Site</a>';
