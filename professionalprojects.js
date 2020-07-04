@@ -2,6 +2,7 @@ document.querySelector('.meltmenu').addEventListener('click', function() {
   document.querySelector('.poster').style.background = 'url(assets/meltposter.png) #fbcee2 center no-repeat';
   document.querySelector('.poster').style.backgroundSize = '110%';
   document.querySelector('#info').style.color = 'white';
+  document.querySelector('#info').style.marginTop = '10%';
   document.querySelector('#info').innerHTML = 'Melt is an idea I had for a single page site come to life. It has room for everything a small business would want online in a fun way.';
   document.querySelector('#art').style.display = 'none';
   document.querySelector('.phone').style.background = 'url(assets/meltmobile.jpg) #fbcee2 center no-repeat';
@@ -20,7 +21,7 @@ document.querySelector('.meltmenu').addEventListener('click', function() {
 });
 document.querySelector('.pkccFlyer').addEventListener('click', function() {
   document.querySelector('.poster').style.background = 'url(assets/pkccposter.png) #ffffff center no-repeat';
-  document.querySelector('.poster').style.backgroundSize = '100%';
+  document.querySelector('.poster').style.backgroundSize = '109%';
   document.querySelector('#info').style.color = '#42a596';
   document.querySelector('#info').innerHTML = 'PDX Kids Code Club is a multi-page site featuring a neat sticky nav bar. Google maps & calendar are brought into the site, for both user & owner friendliness.';
   document.querySelector('#art').style.display = 'none';
