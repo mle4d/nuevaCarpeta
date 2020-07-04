@@ -4,7 +4,7 @@ document.querySelector('.sssPC').addEventListener('click', function() {
   document.querySelector('#info').style.color = '#f23c26';
   document.querySelector('#info').innerHTML = 'Sonder\'s Superhero Search was my son\'s idea! The game features customized images & CSS/Javascript magic to create six rounds of superhero searching fun!';
   document.querySelector('#art').style.display = 'none';
-  document.querySelector('.phone').style.background = 'url(assets/.jpg) center no-repeat #ffffff';
+  document.querySelector('.phone').style.background = 'url(assets/) center no-repeat #ffffff';
   document.querySelector('.phone').style.backgroundSize = '100%';
   document.querySelector('#clock').style.display = 'none';
   document.querySelector('#date').style.display = 'none';
@@ -24,7 +24,7 @@ document.querySelector('.legoPC').addEventListener('click', function() {
   document.querySelector('#info').style.color = '';
   document.querySelector('#info').innerHTML = 'Whack-A-Lego was the final build for the #Javascript30 Challenge. I made the challenge into a game for my son to play, & landed on LEGO as a theme for the challenge of the CSS.';
   document.querySelector('#art').style.display = 'none';
-  document.querySelector('.phone').style.background = 'url(assets/.jpg) center no-repeat #ffffff';
+  document.querySelector('.phone').style.background = 'url(assets/) center no-repeat #ffffff';
   document.querySelector('.phone').style.backgroundSize = '100%';
   document.querySelector('#clock').style.display = 'none';
   document.querySelector('#date').style.display = 'none';
@@ -44,7 +44,7 @@ document.querySelector('.timerPC').addEventListener('click', function() {
   document.querySelector('#info').style.color = '#3a97d4';
   document.querySelector('#info').innerHTML = 'Todder Timer was made during the 2020 pandemic when my son & I were home all day, every day. Toddler timer helped manage simple chores & made my son excited to use it.';
   document.querySelector('#art').style.display = 'none';
-  document.querySelector('.phone').style.background = 'url(assets/.jpg) center no-repeat #ffffff';
+  document.querySelector('.phone').style.background = 'url(assets/toddlertimermobile.png) center no-repeat #ffffff';
   document.querySelector('.phone').style.backgroundSize = '100%';
   document.querySelector('#clock').style.display = 'none';
   document.querySelector('#date').style.display = 'none';
