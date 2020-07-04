@@ -23,6 +23,7 @@ document.querySelector('.pkccFlyer').addEventListener('click', function() {
   document.querySelector('.poster').style.background = 'url(assets/pkccposter.png) #ffffff center no-repeat';
   document.querySelector('.poster').style.backgroundSize = '109%';
   document.querySelector('#info').style.color = '#42a596';
+  document.querySelector('#info').style.marginTop = '10%';
   document.querySelector('#info').innerHTML = 'PDX Kids Code Club is a multi-page site featuring a neat sticky nav bar. Google maps & calendar are brought into the site, for both user & owner friendliness.';
   document.querySelector('#art').style.display = 'none';
   document.querySelector('.phone').style.background = 'url(assets/pkccmobile.jpg) #b763c3 center no-repeat';
@@ -43,6 +44,7 @@ document.querySelector('.pdaaFlyer').addEventListener('click', function() {
   document.querySelector('.poster').style.background = 'url(assets/pdaaposter.png) center #2e2e2e no-repeat';
   document.querySelector('.poster').style.backgroundSize = '100%';
   document.querySelector('#info').style.color = 'white';
+  document.querySelector('#info').style.marginTop = '10%';
   document.querySelector('#info').innerHTML = 'Pearl District Art Association is another idea for a single page site brought to life. Featuring customized images & CSS animations for a unique experience.';
   document.querySelector('#art').style.display = 'none';
   document.querySelector('.phone').style.background = 'url(assets/pdaamobile.jpg) center #2e2e2e no-repeat';
@@ -63,6 +65,7 @@ document.querySelector('.WWcard').addEventListener('click', function() {
   document.querySelector('.poster').style.background = 'url(assets/wewhaleposter.png) bottom #b5e8fd no-repeat';
   document.querySelector('.poster').style.backgroundSize = '100%';
   document.querySelector('#info').style.color = '#2598f5';
+  document.querySelector('#info').style.marginTop = '10%';
   document.querySelector('#info').innerHTML = 'WeWhale is an example of a simple yet fun business site, utilizing slide-in on scroll & custom images.';
   document.querySelector('#art').style.display = 'none';
   document.querySelector('.phone').style.background = 'url(assets/wewhalemobile.PNG) center #ffffff no-repeat';
