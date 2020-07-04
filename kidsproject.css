@@ -1,5 +1,5 @@
 .container {
-  background-color: #81ece2;
+  background-color: #65e9dc;
 }
 #kidstab {
   color: #2ebbadd5;
@@ -50,6 +50,9 @@
 }
 @media screen and (min-width: 320px) and (max-width: 767px) {
   html {
-    background-color: #81ece2;
+    background-color: #65e9dc;
+  }
+  #kidstab {
+    display: none;
   }
 }
