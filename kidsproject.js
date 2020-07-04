@@ -24,7 +24,7 @@ document.querySelector('.legoPC').addEventListener('click', function() {
   document.querySelector('#info').style.color = '';
   document.querySelector('#info').innerHTML = 'Whack-A-Lego was the final build for the #Javascript30 Challenge. I made the challenge into a game for my son to play, & landed on LEGO as a theme for the challenge of the CSS.';
   document.querySelector('#art').style.display = 'none';
-  document.querySelector('.phone').style.background = 'url(assets/) center no-repeat #ffffff';
+  document.querySelector('.phone').style.background = 'url(assets/legomobile.png) center no-repeat #ffffff';
   document.querySelector('.phone').style.backgroundSize = '100%';
   document.querySelector('#clock').style.display = 'none';
   document.querySelector('#date').style.display = 'none';
