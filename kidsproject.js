@@ -28,7 +28,7 @@ document.querySelector('.legoPC').addEventListener('click', function() {
   document.querySelector('.phone').style.backgroundSize = '100%';
   document.querySelector('#clock').style.display = 'none';
   document.querySelector('#date').style.display = 'none';
-  document.querySelector('.screen').style.background = 'url(assets/.gif) #dedfe4 center no-repeat';
+  document.querySelector('.screen').style.background = 'url(assets/legodemo.gif) #dedfe4 center no-repeat';
   document.querySelector('.screen').style.backgroundSize = 'cover';
   document.querySelector('.dtss').style.display = 'none';
   document.querySelector('.sticky').innerHTML = '<a class="stickyLink" href="https://whack-a-lego.netlify.app/" target="_blank">Visit Site</a>';
@@ -48,7 +48,7 @@ document.querySelector('.timerPC').addEventListener('click', function() {
   document.querySelector('.phone').style.backgroundSize = '100%';
   document.querySelector('#clock').style.display = 'none';
   document.querySelector('#date').style.display = 'none';
-  document.querySelector('.screen').style.background = 'url(assets/.gif) #dedfe4 center no-repeat';
+  document.querySelector('.screen').style.background = 'url(assets/timerdemo.gif) #dedfe4 center no-repeat';
   document.querySelector('.screen').style.backgroundSize = 'cover';
   document.querySelector('.dtss').style.display = 'none';
   document.querySelector('.sticky').innerHTML = '<a class="stickyLink" href="https://toddlertimer.netlify.app/" target="_blank">Visit Site</a>';
