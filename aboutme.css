@@ -181,11 +181,12 @@ legend {
   background-size: 85%;
 }
 @media screen and (min-width: 320px) and (max-width: 767px) {
-  @media screen and (min-width: 320px) and (max-width: 767px) {
     html {
       background-color: #fee3f6;
     }
-  }
+    #aboutmetab {
+      display: none;
+    }
 
   .codestorycontainer {
     transform: skewX(0deg);
