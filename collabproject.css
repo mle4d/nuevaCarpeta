@@ -65,4 +65,7 @@
   html {
     background-color: #ece4f9;
   }
+  #collabtab {
+    display: none;
+  }
 }
