@@ -61,4 +61,7 @@
   html {
     background-color: #d2f0fb;
   }
+  #professionaltab {
+    display: none;
+  }
 }
